@@ -1,0 +1,14 @@
+# Raw camera originals (.HEIC / .MOV) — kept locally as the source archive,
+# but not deployed. The web build uses the converted .jpg / .mp4 assets in
+# the hyphenated project folders (images/cove-beach/, videos/cove-beach/, etc.).
+images/Cove beach/
+images/Lawrence Way/
+images/Older work pictures/
+images/Paula Dhillion deck and bath/
+images/Riding arena/
+images/Wende New west RENO/
+images/Renova_New_Images_To_Add/
+
+# Scratch / tooling
+.DS_Store
+**/.DS_Store

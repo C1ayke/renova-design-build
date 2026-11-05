@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-label="Renova Design Build — Family-run general contracting and specialty carpentry, Metro Vancouver and Regional BC">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2f2116"/>
+      <stop offset="100%" stop-color="#4f3622"/>
+    </linearGradient>
+    <pattern id="grain" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="4" fill="transparent"/>
+      <circle cx="1" cy="1" r="0.4" fill="#ffebd0" opacity="0.03"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#grain)"/>
+  <rect x="24" y="24" width="1152" height="582" fill="none" stroke="#987f61" stroke-width="1" opacity="0.5"/>
+  <text x="48" y="70" font-family="Helvetica, Arial, sans-serif" font-size="18" letter-spacing="2" fill="#fee197" opacity="0.85">SOCIAL SHARE IMAGE</text>
+  <g stroke="#ffebd0" stroke-width="2.5" fill="none" opacity="0.55">
+    <rect x="571.65" y="120.87" width="56.699999999999996" height="40.824" rx="4"/>
+    <circle cx="600.0" cy="142.416" r="9.072"/>
+    <path d="M 571.65 154.89 l 14.174999999999999 -11.34 l 12.473999999999998 10.206 l 11.34 -8.504999999999999 l 18.711 15.876" />
+  </g>
+  <text text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="34" fill="#ffebd0" font-weight="400"><tspan x="600.0" y="234.25">Renova Design Build —</tspan><tspan x="600.0" y="280.15">Family-run general</tspan><tspan x="600.0" y="326.05">contracting and specialty</tspan><tspan x="600.0" y="371.95000000000005">carpentry, Metro Vancouver</tspan><tspan x="600.0" y="417.85">and Regional BC</tspan></text>
+  <text x="1152" y="594" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="16" letter-spacing="1.5" fill="#987f61">RENOVA DESIGN BUILD — PHOTO PENDING CLIENT APPROVAL</text>
+</svg>

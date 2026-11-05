@@ -1,0 +1,15 @@
+.vercel
+.env*
+
+node_modules
+public
+.DS_Store
+
+# Raw camera originals stay local (only converted web assets are committed)
+images/Cove beach/
+images/Lawrence Way/
+images/Older work pictures/
+images/Paula Dhillion deck and bath/
+images/Riding arena/
+images/Wende New west RENO/
+images/Renova_New_Images_To_Add/

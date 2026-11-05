@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500" width="1200" height="500" role="img" aria-label="Map of Renova Design Build service area across Metro Vancouver and Regional British Columbia">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2f2116"/>
+      <stop offset="100%" stop-color="#4f3622"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="500" fill="url(#bg)"/>
+  <line x1="0" y1="0" x2="0" y2="500" stroke="#987f61" stroke-width="0.5" opacity="0.12"/><line x1="60" y1="0" x2="60" y2="500" stroke="#987f61" stroke-width="0.5" opacity="0.12"/><line x1="120" y1="0" x2="120" y2="500" stroke="#987f61" stroke-width="0.5" opacity="0.12"/><line x1="180" y1="0" x2="180" y2="500" stroke="#987f61" stroke-width="0.5" opacity="0.12"/><line x1="240" y1="0" x2="240" y2="500" stroke="#987f61" stroke-width="0.5" opacity="0.12"/><line x1="300" y1="0" x2="300" y2="500" stroke="#987f61" stroke-width="0.5" opacity="0.12"/><line x1="360" y1="0" x2="360" y2="500" stroke="#987f61" stroke-width="0.5" opacity="0.12"/><line x1="420" y1="0" x2="420" y2="500" stroke="#987f61" stroke-width="0.5" opacity="0.12"/><line x1="480" y1="0" x2="480" y2="500" stroke="#987f61" stroke-width="0.5" opacity="0.12"/><line x1="540" y1="0" x2="540" y2="500" stroke="#987f61" stroke-width="0.5" opacity="0.12"/><line x1="600" y1="0" x2="600" y2="500" stroke="#987f61" stroke-width="0.5" opacity="0.12"/><line x1="660" y1="0" x2="660" y2="500" stroke="#987f61" stroke-width="0.5" opacity="0.12"/><line x1="720" y1="0" x2="720" y2="500" stroke="#987f61" stroke-width="0.5" opacity="0.12"/><line x1="780" y1="0" x2="780" y2="500" stroke="#987f61" stroke-width="0.5" opacity="0.12"/><line x1="840" y1="0" x2="840" y2="500" stroke="#987f61" stroke-width="0.5" opacity="0.12"/><line x1="900" y1="0" x2="900" y2="500" stroke="#987f61" stroke-width="0.5" opacity="0.12"/><line x1="960" y1="0" x2="960" y2="500" stroke="#987f61" stroke-width="0.5" opacity="0.12"/><line x1="1020" y1="0" x2="1020" y2="500" stroke="#987f61" stroke-width="0.5" opacity="0.12"/><line x1="1080" y1="0" x2="1080" y2="500" stroke="#987f61" stroke-width="0.5" opacity="0.12"/><line x1="1140" y1="0" x2="1140" y2="500" stroke="#987f61" stroke-width="0.5" opacity="0.12"/><line x1="0" y1="0" x2="1200" y2="0" stroke="#987f61" stroke-width="0.5" opacity="0.12"/><line x1="0" y1="60" x2="1200" y2="60" stroke="#987f61" stroke-width="0.5" opacity="0.12"/><line x1="0" y1="120" x2="1200" y2="120" stroke="#987f61" stroke-width="0.5" opacity="0.12"/><line x1="0" y1="180" x2="1200" y2="180" stroke="#987f61" stroke-width="0.5" opacity="0.12"/><line x1="0" y1="240" x2="1200" y2="240" stroke="#987f61" stroke-width="0.5" opacity="0.12"/><line x1="0" y1="300" x2="1200" y2="300" stroke="#987f61" stroke-width="0.5" opacity="0.12"/><line x1="0" y1="360" x2="1200" y2="360" stroke="#987f61" stroke-width="0.5" opacity="0.12"/><line x1="0" y1="420" x2="1200" y2="420" stroke="#987f61" stroke-width="0.5" opacity="0.12"/><line x1="0" y1="480" x2="1200" y2="480" stroke="#987f61" stroke-width="0.5" opacity="0.12"/>
+  <path d="M 0 380 Q 300 320 500 360 T 1000 300 T 1200 340" fill="none" stroke="#987f61" stroke-width="3" opacity="0.35"/>
+  <rect x="20" y="20" width="1160" height="460" fill="none" stroke="#987f61" stroke-width="1" opacity="0.5"/>
+  <text x="40" y="56" font-family="Helvetica, Arial, sans-serif" font-size="16" letter-spacing="2" fill="#fee197" opacity="0.8">SERVICE AREA MAP</text>
+  
+  <g>
+    <circle cx="260" cy="150" r="7" fill="#fee197" stroke="#2f2116" stroke-width="1.5"/>
+    <text x="274" y="155" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#ffebd0">Vancouver</text>
+  </g>
+  <g>
+    <circle cx="420" cy="110" r="7" fill="#fee197" stroke="#2f2116" stroke-width="1.5"/>
+    <text x="434" y="115" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#ffebd0">Burnaby</text>
+  </g>
+  <g>
+    <circle cx="300" cy="260" r="7" fill="#fee197" stroke="#2f2116" stroke-width="1.5"/>
+    <text x="314" y="265" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#ffebd0">Surrey</text>
+  </g>
+  <g>
+    <circle cx="520" cy="200" r="7" fill="#fee197" stroke="#2f2116" stroke-width="1.5"/>
+    <text x="534" y="205" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#ffebd0">Coquitlam</text>
+  </g>
+  <g>
+    <circle cx="180" cy="90" r="7" fill="#fee197" stroke="#2f2116" stroke-width="1.5"/>
+    <text x="194" y="95" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#ffebd0">N. Vancouver</text>
+  </g>
+  <g>
+    <circle cx="900" cy="340" r="7" fill="#fee197" stroke="#2f2116" stroke-width="1.5"/>
+    <text x="914" y="345" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#ffebd0">Regional BC</text>
+  </g>
+  <text x="1160" y="468" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="14" letter-spacing="1.2" fill="#987f61" opacity="0.75">ILLUSTRATIVE — REPLACE WITH LIVE MAP EMBED</text>
+</svg>
