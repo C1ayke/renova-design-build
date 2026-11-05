@@ -1,0 +1,29 @@
+<a href="#main" class="skip-link">Skip to content</a>
+
+<!-- ===== Header ===== -->
+<header class="site-header" id="site-header">
+  <div class="wrap flex items-center justify-between py-5">
+    <a href="index.html" class="wordmark"><img src="{{ site.logo | asset }}" alt="{{ site.logo_alt }}" class="site-logo"></a>
+    <nav class="hidden md:flex items-center" aria-label="Primary">
+      <a href="index.html" class="nav-link"{% if page == 'home' %} aria-current="page"{% endif %}>{{ site.nav.home }}</a>
+      <a href="services.html" class="nav-link"{% if page == 'services' %} aria-current="page"{% endif %}>{{ site.nav.services }}</a>
+      <a href="gallery.html" class="nav-link"{% if page == 'gallery' %} aria-current="page"{% endif %}>{{ site.nav.gallery }}</a>
+      <a href="about.html" class="nav-link"{% if page == 'about' %} aria-current="page"{% endif %}>{{ site.nav.about }}</a>
+      <a href="contact.html" class="nav-link"{% if page == 'contact' %} aria-current="page"{% endif %}>{{ site.nav.contact }}</a>
+      <a href="contact.html" class="btn-outline-nav ml-2">{{ site.quote_button }}</a>
+    </nav>
+    <button class="nav-toggle md:hidden" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <div class="mobile-menu md:hidden">
+    <div class="wrap py-2 pb-6">
+      <a href="index.html" class="nav-link"{% if page == 'home' %} aria-current="page"{% endif %}>{{ site.nav.home }}</a>
+      <a href="services.html" class="nav-link"{% if page == 'services' %} aria-current="page"{% endif %}>{{ site.nav.services }}</a>
+      <a href="gallery.html" class="nav-link"{% if page == 'gallery' %} aria-current="page"{% endif %}>{{ site.nav.gallery }}</a>
+      <a href="about.html" class="nav-link"{% if page == 'about' %} aria-current="page"{% endif %}>{{ site.nav.about }}</a>
+      <a href="contact.html" class="nav-link"{% if page == 'contact' %} aria-current="page"{% endif %}>{{ site.nav.contact }}</a>
+      <a href="contact.html" class="btn-outline-nav mt-4 inline-block">{{ site.quote_button }}</a>
+    </div>
+  </div>
+</header>

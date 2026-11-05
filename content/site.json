@@ -1,0 +1,28 @@
+{
+  "logo": "/images/logo/Renova_Logo_Transparent.png",
+  "logo_alt": "Renova Design Build",
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "gallery": "Gallery",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "quote_button": "Get a Free Quote",
+  "footer": {
+    "tagline": "Family-run general contracting and specialty carpentry. Built on integrity, building science, and Red Seal trade mastery.",
+    "company_heading": "Company",
+    "company_links": {
+      "about": "About Us",
+      "services": "Services",
+      "gallery": "Project Gallery",
+      "contact": "Contact"
+    },
+    "contact_heading": "Contact",
+    "service_area_heading": "Service Area",
+    "service_area": "Surrey, BC — Fraser Valley & Lower Mainland",
+    "copyright": "Renova Design Build. All rights reserved.",
+    "credentials_line": "Red Seal Certified · WorkSafeBC Insured · Surrey, BC & the Fraser Valley",
+    "social_links": []
+  }
+}

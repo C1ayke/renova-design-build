@@ -1,0 +1,177 @@
+{% include "heads/index.html" %}{% set page = 'home' %}
+{% include "partials/header.njk" %}
+
+<main id="main">
+
+<!-- ===== Hero ===== -->
+{% set hero = home.hero %}{% set heroClass = 'hero-full' %}{% set heroStyle = 'object-position: center 55%;' %}{% set heroCta = 'btn-cta btn-cta-lg' %}
+{% include "partials/hero.njk" %}
+
+<!-- ===== Vision statement ===== -->
+<section class="section-cream text-center reveal">
+  <div class="wrap flex flex-col items-center">
+    <p class="eyebrow" style="color:var(--color-muted-gold);">{{ home.vision.eyebrow }}</p>
+    <p class="section-heading mt-4 mx-auto" style="text-align:center;">{{ home.vision.statement }}</p>
+  </div>
+</section>
+
+<!-- ===== Trust bar ===== -->
+<section class="trust-bar py-12">
+  <div class="wrap grid grid-cols-2 md:grid-cols-4 gap-y-8 text-center md:text-left">
+    {% for stat in home.trust_bar %}
+    <div class="trust-stat">
+      <div class="trust-stat-num">{{ stat.headline }}</div>
+      <div class="trust-stat-label">{{ stat.label }}</div>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+<!-- ===== Dark Overlay Section ===== -->
+<section class="dark-overlay-section reveal">
+  <img src="{{ home.photo_band.image | asset }}" alt="{{ home.photo_band.image_alt }}" class="overlay-bg" loading="lazy">
+  <div class="overlay-content">
+    <h2 class="overlay-title">{{ home.photo_band.title }}</h2>
+    <p class="overlay-label">{{ home.photo_band.label }}</p>
+  </div>
+</section>
+
+<!-- ===== Services overview ===== -->
+{# The four cards' icons and link targets are fixed here; only their words come from the CMS. #}
+{% set cardLayout = [
+  { href: 'services.html#architectural-finishing', icon: '<path d="M3 6h13l5 5"/><path d="M3 10h13l5 5"/><path d="M3 14h13l5 5"/><path d="M3 18h9"/>' },
+  { href: 'services.html#design-build', icon: '<rect x="3" y="4" width="18" height="16"/><path d="M7 9h5M7 13h8M7 17h4"/><circle cx="17" cy="15" r="2"/>' },
+  { href: 'services.html#concrete-formwork', icon: '<rect x="3" y="4" width="6" height="16"/><rect x="15" y="4" width="6" height="16"/><path d="M9 8h6M9 12h6M9 16h6"/>' },
+  { href: 'services.html#heavy-timber', icon: '<path d="M2 20h20"/><path d="M4 20L12 5L20 20"/><path d="M7.5 20V13L12 10l4.5 3v7"/>' }
+] %}
+<section class="section-cream reveal">
+  <div class="wrap">
+    <p class="eyebrow" style="color:var(--color-muted-gold);">{{ home.services_overview.eyebrow }}</p>
+    <h2 class="section-heading mt-3">{{ home.services_overview.heading }}</h2>
+    <p class="mt-4 max-w-2xl" style="color:var(--color-aged-bronze);">{{ home.services_overview.intro }}</p>
+
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mt-12">
+      {% for card in home.services_overview.cards %}
+      <a href="{{ cardLayout[loop.index0].href }}" class="service-card block hover:bg-white/40 transition-colors">
+        <div class="icon-frame" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="1.5">{{ cardLayout[loop.index0].icon | safe }}</svg>
+        </div>
+        <h3 class="text-lg font-medium">{{ card.title }}</h3>
+        <p class="mt-2 text-sm" style="color:var(--color-aged-bronze);">{{ card.text }}</p>
+      </a>
+      {% endfor %}
+
+      <div class="service-card flex flex-col justify-center items-start" style="background-color:var(--color-walnut-shell);border-color:var(--color-aged-bronze);">
+        <p class="text-sm" style="color:var(--color-warm-parchment);">{{ home.services_overview.closing_text }}</p>
+        <a href="services.html" class="link-underline-dark mt-4 inline-block">{{ home.services_overview.closing_link }} &rarr;</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===== Our Process ===== -->
+<section class="section-dark reveal">
+  <div class="wrap">
+    <p class="eyebrow" style="color:var(--color-amber-glow);">{{ home.process.eyebrow }}</p>
+    <h2 class="section-heading-dark mt-3 max-w-2xl">{{ home.process.heading }}</h2>
+    <p class="mt-4 max-w-2xl" style="color:var(--color-candlelight);">{{ home.process.intro }}</p>
+
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
+      {% for step in home.process.steps %}
+      <div class="border-t pt-6" style="border-color:var(--color-aged-bronze);">
+        <p class="text-xs" style="color:var(--color-muted-gold);">{{ loop.index | twoDigit }}</p>
+        <h3 class="text-lg font-medium mt-1" style="color:var(--color-warm-parchment);">{{ step.title }}</h3>
+        <p class="mt-2 text-sm" style="color:var(--color-candlelight);">{{ step.text }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<!-- ===== Featured projects ===== -->
+<section class="section-candle reveal">
+  <div class="wrap">
+    <div class="flex flex-col md:flex-row md:items-end md:justify-between gap-4">
+      <div>
+        <p class="eyebrow" style="color:var(--color-muted-gold);">{{ home.featured.eyebrow }}</p>
+        <h2 class="section-heading mt-3">{{ home.featured.heading }}</h2>
+      </div>
+      <a href="gallery.html" class="link-underline whitespace-nowrap">{{ home.featured.gallery_link }} &rarr;</a>
+    </div>
+
+    <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-x-6 gap-y-10 mt-12">
+      {% for card in featuredProjects %}
+      <figure class="project-card">
+        <a href="gallery.html#{{ card.slug }}" class="img-frame">
+          <img src="{{ card.image | asset }}" alt="{{ card.image_alt }}" class="ph-photo" loading="lazy">
+        </a>
+        <figcaption>
+          <p class="project-title">{{ card.name }}</p>
+          <p class="project-meta">{{ card.summary }}</p>
+        </figcaption>
+      </figure>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<!-- ===== Credibility / certifications ===== -->
+<section class="section-dark reveal">
+  <div class="wrap">
+    <p class="eyebrow" style="color:var(--color-amber-glow);">{{ home.credentials.eyebrow }}</p>
+    <h2 class="section-heading-dark mt-3 max-w-2xl">{{ home.credentials.heading }}</h2>
+
+    <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 mt-12">
+      {% for item in home.credentials.items %}
+      <div class="border-t pt-6" style="border-color:var(--color-aged-bronze);">
+        <h3 class="text-lg font-medium" style="color:var(--color-warm-parchment);">{{ item.title }}</h3>
+        <p class="mt-2 text-sm" style="color:var(--color-candlelight);">{{ item.text }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<!-- ===== CTA banner ===== -->
+<section class="section-cream text-center">
+  <div class="wrap flex flex-col items-center">
+    <h2 class="section-heading text-center">{{ home.cta.heading }}</h2>
+    <p class="mt-4 max-w-xl" style="color:var(--color-aged-bronze);">{{ home.cta.text }}</p>
+    <a href="contact.html" class="btn-cta-dark mt-8">{{ site.quote_button }}</a>
+  </div>
+</section>
+
+<!-- ===== FAQ ===== -->
+<section class="section-candle reveal">
+  <div class="wrap">
+    <p class="eyebrow" style="color:var(--color-muted-gold);">{{ home.faq.eyebrow }}</p>
+    <h2 class="section-heading mt-3">{{ home.faq.heading }}</h2>
+
+    <div class="faq-list mt-12">
+      {% for item in home.faq.items %}
+      <div class="faq-item">
+        <h3>
+          <button type="button" class="faq-toggle" aria-expanded="false" aria-controls="faq-a-{{ loop.index }}" id="faq-q-{{ loop.index }}">
+            <span>{{ item.question }}</span>
+            <span class="faq-icon" aria-hidden="true"></span>
+          </button>
+        </h3>
+        <div class="faq-panel" id="faq-a-{{ loop.index }}" role="region" aria-labelledby="faq-q-{{ loop.index }}" aria-hidden="true">
+          <div class="faq-panel-inner">
+            <p>{{ item.answer | contactTokens(contact) }}</p>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+</main>
+
+{% include "partials/footer.njk" %}
+
+<script src="js/main.js"></script>
+</body>
+</html>

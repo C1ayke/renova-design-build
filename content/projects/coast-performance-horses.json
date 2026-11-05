@@ -1,0 +1,109 @@
+{
+  "order": 4,
+  "name": "Coast Performance Horses",
+  "category": "equestrian-agricultural",
+  "eyebrow": "Equestrian & Agricultural",
+  "location": "Langley, BC",
+  "summary": "Riding arena, barn & post replacement",
+  "description": "Renova's primary scope on this property was replacing roughly 90 rotten support posts with new pressure-treated posts — structural remediation that kept a working equestrian facility safe without shutting it down. The project also included rebuilding the arena's interior kick wall, plus a new riding arena and barn with a standing-seam metal roof and three framed lantern-roof cupolas built on-site and craned into place.",
+  "scope": "Post replacement (~90 posts), kick wall reconstruction, structural framing, lantern-roof cupolas, cladding, doors, interior finishing",
+  "credits": [],
+  "sections": [
+    {
+      "type": "lead_photo",
+      "image": "/images/coast-performance-horses/IMG_0753.jpg",
+      "image_alt": "Coast Performance Horses riding arena and barn, Langley — finished barn at dusk, three lantern-roof cupolas glowing, warm light in the windows",
+      "caption": "Coast Performance Horses — finished barn at dusk, three lantern-roof cupolas glowing."
+    },
+    {
+      "type": "before_after",
+      "label": "Before / After — post replacement (~90 rotten posts)",
+      "note": "Renova identified and replaced approximately 90 rotten structural posts across the property — the primary scope of this job.",
+      "before": {
+        "label": "Before",
+        "image": "/images/coast-performance-horses/IMG_8971.jpg",
+        "image_alt": "Structural post rotted through and separated at its base, still in place in the arena wall at Coast Performance Horses, Langley",
+        "caption": "A post rotted through and separated at its base, still standing in the wall."
+      },
+      "after": {
+        "label": "After",
+        "image": "/images/coast-performance-horses/IMG_8900.jpg",
+        "image_alt": "New pressure-treated post framing in place after rotten post replacement at Coast Performance Horses, Langley, ahead of kick wall cladding",
+        "caption": "New pressure-treated framing in place, ahead of the kick wall cladding going on."
+      },
+      "extra_photos": [
+        {
+          "image": "/images/coast-performance-horses/IMG_8894.jpg",
+          "image_alt": "Sawn cross-section of a rotten structural post at Coast Performance Horses, Langley, showing rot through the core",
+          "caption": "Coast Performance Horses — sawn cross-section showing rot through the core of one of the ~90 posts, Langley."
+        },
+        {
+          "image": "/images/coast-performance-horses/IMG_8905.jpg",
+          "image_alt": "Wide interior view of the arena before post replacement at Coast Performance Horses, Langley",
+          "caption": "Coast Performance Horses — wide context of the arena before post replacement, Langley."
+        },
+        {
+          "image": "/images/coast-performance-horses/IMG_8700.jpg",
+          "image_alt": "Rotten post at a wall edge at Coast Performance Horses, Langley",
+          "caption": "Coast Performance Horses — rotten post at a wall edge, Langley."
+        },
+        {
+          "image": "/images/coast-performance-horses/IMG_8969.jpg",
+          "image_alt": "Rot detail at a structural post base at Coast Performance Horses, Langley",
+          "caption": "Coast Performance Horses — rot detail at a post base, Langley."
+        }
+      ]
+    },
+    {
+      "type": "before_after",
+      "label": "Before / After — kick wall",
+      "before": {
+        "label": "Before",
+        "image": "/images/coast-performance-horses/IMG_9288.jpg",
+        "image_alt": "Wide view of the original kick rail and wall at Coast Performance Horses, Langley, before replacement, shovel excavating around a rotten post base",
+        "caption": "The original kick rail and wall, before replacement — a shovel excavating around a rotten post base."
+      },
+      "after": {
+        "label": "After",
+        "image": "/images/coast-performance-horses/IMG_7953.jpg",
+        "image_alt": "Finished tongue-and-groove kick wall along the arena interior at Coast Performance Horses, Langley",
+        "caption": "Finished tongue-and-groove kick wall along the arena interior."
+      }
+    },
+    {
+      "type": "single_photo",
+      "label": "In progress → complete — kick wall",
+      "image": "/images/coast-performance-horses/IMG_8104.jpg",
+      "image_alt": "Coast Performance Horses arena interior mid-install — finished kick wall on one side, bare framing on the other, Langley",
+      "caption": "Kick wall complete along the near wall, the opposite wall still bare framing."
+    },
+    {
+      "type": "before_after",
+      "label": "Before / After — lantern-roof cupolas",
+      "before": {
+        "label": "Before",
+        "image": "/images/coast-performance-horses/IMG_0128.jpg",
+        "image_alt": "Coast Performance Horses barn under construction in Langley on a rainy day — cupolas partly framed in bare plywood, two workers on the standing-seam metal roof",
+        "caption": "Cupolas being framed on-site; crew working the standing-seam roof in the rain."
+      },
+      "after": {
+        "label": "After",
+        "image": "/images/coast-performance-horses/IMG_0753.jpg",
+        "image_alt": "The same Coast Performance Horses barn in Langley finished at dusk with the lantern-roof cupolas glowing",
+        "caption": "The finished structure at dusk, cupolas clad and glowing."
+      }
+    },
+    {
+      "type": "videos",
+      "label": "Project video",
+      "videos": [
+        {
+          "file": "/videos/coast-performance-horses/IMG_9920.mp4",
+          "poster": "/videos/coast-performance-horses/IMG_9920-poster.jpg",
+          "shape": "landscape",
+          "caption": "A lantern-roof cupola being built on-site before being craned onto the roof."
+        }
+      ]
+    }
+  ]
+}

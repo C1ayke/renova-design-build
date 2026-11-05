@@ -1,0 +1,35 @@
+{
+  "order": 2,
+  "name": "Cove Beach ADU",
+  "category": "custom-homes",
+  "eyebrow": "Accessory Dwelling Unit",
+  "location": "Sechelt, BC",
+  "summary": "Detached ADU",
+  "role": "Lead carpentry subcontractor for West Coast Turn Key",
+  "description": "A detached accessory dwelling unit built alongside the main Cove Beach residence, set into the same rock bluff above the ocean. Renova delivered the mitered cedar rainscreen siding with true waterfall corners on the ADU's exterior.",
+  "scope": "Mitered cedar siding",
+  "credits": [
+    {
+      "label": "Client",
+      "value": "West Coast Turn Key"
+    }
+  ],
+  "sections": [
+    {
+      "type": "lead_photo",
+      "image": "/images/cove-beach/IMG_3139.jpg",
+      "image_alt": "Cove Beach ADU, Sechelt — finished mitered cedar rainscreen siding corner meeting a window",
+      "caption": "Cove Beach ADU — finished cedar siding corner meeting a window, Sechelt."
+    },
+    {
+      "type": "photo_grid",
+      "photos": [
+        {
+          "image": "/images/cove-beach/IMG_3419.jpg",
+          "image_alt": "Cedar siding elevation on the Cove Beach ADU, Sechelt",
+          "caption": "Cove Beach ADU — cedar siding elevation."
+        }
+      ]
+    }
+  ]
+}

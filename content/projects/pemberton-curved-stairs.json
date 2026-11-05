@@ -1,0 +1,96 @@
+{
+  "order": 7,
+  "name": "Curved Concrete Staircase",
+  "category": "custom-homes",
+  "eyebrow": "Architectural Concrete",
+  "location": "Pemberton, BC",
+  "summary": "Curved cast-in-place concrete stairwell",
+  "role": "Subcontractor for Maple Reinders",
+  "description": "A curved, cast-in-place concrete stairwell wall built as part of a townhouse development in Pemberton, with Maple Reinders as general contractor. Renova formed and poured the sweeping radius wall and stair run as one continuous structure — the kind of formwork precision decorative curved concrete demands.",
+  "scope": "Curved concrete formwork & stairwell construction",
+  "credits": [
+    {
+      "label": "General Contractor",
+      "value": "Maple Reinders"
+    }
+  ],
+  "sections": [
+    {
+      "type": "lead_photo",
+      "image": "/images/pemberton-curved-stairs/IMG_2444.jpg",
+      "image_alt": "Finished curved cast-in-place concrete staircase on a Pemberton townhouse development, both curved walls with a mountain backdrop, general contractor Maple Reinders",
+      "caption": "Curved Concrete Staircase — finished stairwell, both curved walls, mountain backdrop, Pemberton."
+    },
+    {
+      "type": "photo_grid",
+      "photos": [
+        {
+          "image": "/images/pemberton-curved-stairs/IMG_2443.jpg",
+          "image_alt": "Finished curved cast-in-place concrete stairwell on a Pemberton townhouse development",
+          "caption": "Curved Concrete Staircase — finished stairwell, Pemberton."
+        },
+        {
+          "image": "/images/pemberton-curved-stairs/IMG_2445.jpg",
+          "image_alt": "Finished curved concrete stairwell and planter wall on a Pemberton townhouse development",
+          "caption": "Curved Concrete Staircase — finished stairwell, planter wall detail, Pemberton."
+        },
+        {
+          "image": "/images/pemberton-curved-stairs/IMG_2446.jpg",
+          "image_alt": "Finished curved cast-in-place concrete stairwell wall on a Pemberton townhouse development",
+          "caption": "Curved Concrete Staircase — finished stairwell, Pemberton."
+        }
+      ]
+    },
+    {
+      "type": "photo_grid",
+      "label": "During — formwork & on-site install",
+      "photos": [
+        {
+          "image": "/images/pemberton-curved-stairs/IMG_3070.jpg",
+          "image_alt": "Renova crew member hand-building curved plywood formwork in-shop for the Pemberton curved concrete staircase",
+          "caption": "Curved Concrete Staircase — crew hand-building the curved plywood formwork in-shop, Pemberton."
+        },
+        {
+          "image": "/images/pemberton-curved-stairs/IMG_3069.jpg",
+          "image_alt": "Curved plywood stair formwork under construction in-shop for the Pemberton curved concrete staircase",
+          "caption": "Curved Concrete Staircase — curved formwork under construction in-shop, Pemberton."
+        },
+        {
+          "image": "/images/pemberton-curved-stairs/IMG_3072.jpg",
+          "image_alt": "Wide view of the curved stair formwork build in-shop for the Pemberton curved concrete staircase",
+          "caption": "Curved Concrete Staircase — formwork shop, wide view, Pemberton."
+        },
+        {
+          "image": "/images/pemberton-curved-stairs/IMG_3083.jpg",
+          "image_alt": "Formwork construction detail for the Pemberton curved concrete staircase",
+          "caption": "Curved Concrete Staircase — formwork detail, Pemberton."
+        },
+        {
+          "image": "/images/pemberton-curved-stairs/IMG_3084.jpg",
+          "image_alt": "Close-up of the curved formwork radius for the Pemberton curved concrete staircase",
+          "caption": "Curved Concrete Staircase — curve detail on the formwork, Pemberton."
+        },
+        {
+          "image": "/images/pemberton-curved-stairs/IMG_3088.jpg",
+          "image_alt": "Foam void-form detail used in the curved concrete formwork for the Pemberton staircase",
+          "caption": "Curved Concrete Staircase — foam form detail, Pemberton."
+        },
+        {
+          "image": "/images/pemberton-curved-stairs/IMG_3085.jpg",
+          "image_alt": "Curved concrete formwork being installed on-site for the Pemberton staircase, mountain backdrop",
+          "caption": "Curved Concrete Staircase — on-site formwork install, Pemberton."
+        },
+        {
+          "image": "/images/pemberton-curved-stairs/IMG_3089.jpg",
+          "image_alt": "On-site install context for the curved concrete formwork on the Pemberton staircase",
+          "caption": "Curved Concrete Staircase — on-site install context, Pemberton."
+        },
+        {
+          "image": "/images/pemberton-curved-stairs/IMG_3125.jpg",
+          "image_alt": "Wide on-site view of the curved concrete stair formwork installation on the Pemberton townhouse development",
+          "caption": "Curved Concrete Staircase — on-site, wide view, Pemberton."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+<!-- ===== Footer ===== -->
+<footer class="site-footer">
+  <div class="wrap py-16">
+    <div class="grid gap-10 md:grid-cols-4">
+      <div>
+        <div class="wordmark mb-4"><img src="{{ site.logo | asset }}" alt="{{ site.logo_alt }}" class="site-logo-footer"></div>
+        <p class="text-sm opacity-90 max-w-xs">{{ site.footer.tagline }}</p>
+      </div>
+      <div>
+        <div class="footer-heading">{{ site.footer.company_heading }}</div>
+        <a class="footer-link" href="about.html">{{ site.footer.company_links.about }}</a>
+        <a class="footer-link" href="services.html">{{ site.footer.company_links.services }}</a>
+        <a class="footer-link" href="gallery.html">{{ site.footer.company_links.gallery }}</a>
+        <a class="footer-link" href="contact.html">{{ site.footer.company_links.contact }}</a>
+      </div>
+      <div>
+        <div class="footer-heading">{{ site.footer.contact_heading }}</div>
+        <p class="footer-link" style="cursor:default;">{{ contact.primary_contact }}</p>
+        <a class="footer-link" href="mailto:{{ contact.email }}">{{ contact.email }}</a>
+        <a class="footer-link" href="{{ contact.phone | telHref }}">{{ contact.phone }}</a>
+        {% for link in site.footer.social_links %}
+        <a class="footer-link" href="{{ link.url }}" target="_blank" rel="noopener">{{ link.label }}</a>
+        {% endfor %}
+      </div>
+      <div>
+        <div class="footer-heading">{{ site.footer.service_area_heading }}</div>
+        <p class="text-sm opacity-90">{{ site.footer.service_area }}</p>
+      </div>
+    </div>
+    <div class="hairline-top-dark mt-12 pt-6 flex flex-col md:flex-row justify-between text-xs opacity-70 gap-2">
+      <p>&copy; <span id="current-year"></span> {{ site.footer.copyright }}</p>
+      <p>{{ site.footer.credentials_line }}</p>
+    </div>
+  </div>
+</footer>

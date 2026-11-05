@@ -1,0 +1,65 @@
+{
+  "order": 5,
+  "name": "Paula Dhillon",
+  "category": "renovations",
+  "eyebrow": "Renovation",
+  "location": "Surrey, BC",
+  "summary": "Bathroom, powder room & deck",
+  "description": "A bathroom rebuilt with a frameless glass shower, integrated grab bar and bench, and large-format porcelain; a new powder room with a blue quartz counter; and the old worn stone patio replaced with a low-maintenance composite deck.",
+  "scope": "Full bathroom renovation, new powder room, composite deck",
+  "credits": [],
+  "sections": [
+    {
+      "type": "before_after",
+      "label": "In progress → complete — main bathroom",
+      "before": {
+        "label": "In progress",
+        "image": "/images/paula-dhillon/IMG_7938.jpg",
+        "image_alt": "Paula Dhillon bathroom renovation in Surrey, mid-renovation — new shower set, walls taped and unpainted, dated vanity and toilet still in place",
+        "caption": "Mid-renovation — shower base and glass set, walls taped and unpainted."
+      },
+      "after": {
+        "label": "Complete",
+        "image": "/images/paula-dhillon/IMG_8194.jpg",
+        "image_alt": "Paula Dhillon bathroom renovation, Surrey — finished frameless glass shower with integrated grab bar and bench, large-format porcelain walls",
+        "caption": "Finished frameless glass shower with integrated grab bar and bench."
+      }
+    },
+    {
+      "type": "before_after",
+      "label": "Before / After — rear deck",
+      "before": {
+        "label": "Before",
+        "image": "/images/paula-dhillon/IMG_7020.jpg",
+        "image_alt": "Paula Dhillon back yard before renovation in Surrey — old worn concrete-paver patio, mossy and cluttered with covered furniture",
+        "caption": "The original worn stone-paver patio."
+      },
+      "after": {
+        "label": "After",
+        "image": "/images/paula-dhillon/IMG_7256.jpg",
+        "image_alt": "Paula Dhillon new composite deck in Surrey with a picture-frame border and wrapped fascia",
+        "caption": "New composite deck with a picture-frame border and wrapped fascia."
+      }
+    },
+    {
+      "type": "photo_grid",
+      "photos": [
+        {
+          "image": "/images/paula-dhillon/IMG_8197.jpg",
+          "image_alt": "New powder room with a blue quartz counter at the Paula Dhillon renovation, Surrey",
+          "caption": "Paula Dhillon — new powder room with a blue quartz counter."
+        },
+        {
+          "image": "/images/paula-dhillon/IMG_8191.jpg",
+          "image_alt": "Finished Paula Dhillon bathroom in Surrey, wider view of the frameless glass shower and bench",
+          "caption": "Paula Dhillon — finished bathroom, wider view."
+        },
+        {
+          "image": "/images/paula-dhillon/IMG_7246.jpg",
+          "image_alt": "New joist framing for the Paula Dhillon composite deck built over the old paver patio, Surrey",
+          "caption": "Paula Dhillon — composite deck framing over the old patio."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{# heroClass, heroStyle, cta_class are set by the including page #}
+<section class="hero {{ heroClass }}">
+  <img src="{{ hero.image | asset }}" alt="{{ hero.image_alt }}" class="hero-bg hero-bg-kb"{% if heroStyle %} style="{{ heroStyle }}"{% endif %} loading="eager">
+  <div class="hero-content">
+    <p class="hero-kicker">{{ hero.kicker }}</p>
+    <h1 class="hero-headline">{{ hero.headline | lines }}</h1>
+    <p class="hero-sub">{{ hero.subhead }}</p>
+    {% if heroCta %}<a href="contact.html" class="{{ heroCta }}">{{ site.quote_button }}</a>{% endif %}
+  </div>
+</section>

@@ -1,0 +1,79 @@
+{
+  "hero": {
+    "image": "/images/cove-beach/IMG_1875.jpg",
+    "image_alt": "The Renova Design Build crew together on-site at the Cove Beach custom home in Sechelt, the ocean behind them",
+    "kicker": "About Us — The Quesnel Family",
+    "headline": "A Family Business Built on the Job Site, Not the Boardroom.",
+    "subhead": "Three trade leaders, one standard: every project is supervised by the people who know how to build it — and the same firm runs the full general-contracting scope, from design and permits to multi-trade coordination."
+  },
+  "story": {
+    "eyebrow": "Our Story",
+    "heading": "Family integrity. Building science. Red Seal mastery.",
+    "paragraphs": [
+      "Renova Design Build is a Surrey, BC-based general contractor and Red Seal carpentry firm run by the Quesnel family, serving the Fraser Valley and Lower Mainland — a business built on the same commitment since day one: the person who quotes the job is the person standing on-site running it. That family reputation has grown over decades of hands-on work — structural concrete on commercial job sites, an equestrian arena in Langley, custom homes in West Vancouver and on the Sunshine Coast, and full renovations in Surrey and New Westminster.",
+      "For the Quesnels, that reputation shows up as much in the work you don't see — the formwork bracing, the structural connections, the code compliance done right the first time — as it does in the finished cedar siding or the custom staircase. The business has grown almost entirely on word-of-mouth and repeat referral work, built on a reputation for detailed craftsmanship paired with the practical experience to run a job start to finish. Each project is treated as part of an ongoing family tradition, not just another job on the books.",
+      "What sets us apart is the pairing of building science with trade mastery. Bill Sr.'s decades as a Journeyman Building Technologist mean every project is grounded in structural code compliance from day one — not retrofitted after a problem shows up. Bill Jr. and Nicholas bring that technical foundation to the ground, as Red Seal Journeyman Carpenters who lead crews directly rather than delegate to unsupervised sub-trades. The result is a firm that pairs masterful specialty carpentry with the full general-contracting scope — design-build, permitting, budgeting, scheduling, and multi-trade coordination — and can move fluidly between a full residential renovation and a multi-month commercial concrete formwork contract without losing the quality control that comes from direct, on-site trade-leader supervision.",
+      "Today Renova works both as a primary design-build contractor for custom homes and community facilities, and as a high-precision subcontractor for large commercial developers — a dual capability built on the same crew, the same standards, and the same family name. Sustainable, resource-conscious building practices are part of that standard too — the Quesnels build with an eye toward material efficiency and long-term environmental responsibility on every project."
+    ]
+  },
+  "leadership": {
+    "eyebrow": "Leadership",
+    "heading": "The trade leaders on your job site.",
+    "intro": "Renova is led by three Quesnel-family trade leaders. There's no separate management layer between you and the crew — the people below quote the project and run it on-site.",
+    "photos": [
+      {
+        "image": "/images/cove-beach/IMG_1875.jpg",
+        "image_alt": "The Renova crew together on-site at the Cove Beach custom home in Sechelt, the ocean behind them",
+        "caption": "The crew on-site at the Cove Beach custom home, with Bill Sr. front right."
+      },
+      {
+        "image": "/images/older-work/IMG_4104.jpg",
+        "image_alt": "Renova crew of four in full PPE on a commercial concrete pour in Metro Vancouver, a tower crane behind them",
+        "caption": "On a commercial concrete pour in Metro Vancouver — trade leaders in PPE, on the deck, every day."
+      }
+    ],
+    "leaders": [
+      {
+        "name": "Bill Sr.",
+        "role": "Journeyman Building Technologist",
+        "bio": "Structural and technical acumen across building science, structural code compliance, and turnkey general contracting. Bill Sr. also manages capital construction programs for remote community clients, overseeing multi-property scopes from planning through completion."
+      },
+      {
+        "name": "Bill Jr.",
+        "role": "Red Seal Journeyman Carpenter, Foreman",
+        "bio": "In construction since he was 18, Bill Jr. brings formwork and framing acumen honed on large-scale structural concrete jobs. He manages site-safety compliance and directs crews on custom residential remodels and commercial concrete contracts."
+      },
+      {
+        "name": "Nicholas",
+        "role": "Red Seal Journeyman Carpenter, Superintendent",
+        "bio": "Architectural and finish acumen spanning fine finish millwork, mitered siding and soffit detailing, and 3D CAD/SketchUp drafting. Nicholas superintends builds and translates client vision into buildable, structurally sound drawings."
+      }
+    ]
+  },
+  "certifications": {
+    "eyebrow": "Certifications & Safety",
+    "heading": "Certified for residential, commercial, and utility-grade work.",
+    "items": [
+      {
+        "title": "Red Seal & Journeyman Certification",
+        "text": "Red Seal Journeyman Carpenters and a Journeyman Building Technologist lead every project — the highest standard of trade certification in Canada."
+      },
+      {
+        "title": "Utility-Level Site Safety Compliance",
+        "text": "Certified for BC Hydro sites, meeting the strictest safety and access-control standards in the province."
+      },
+      {
+        "title": "SketchUp 3D Modeling & CAD Integration",
+        "text": "In-house drafting capability that carries a project from concept sketch through construction-ready drawings."
+      },
+      {
+        "title": "Full WorkSafeBC Coverage & Liability Insurance",
+        "text": "Comprehensive coverage across commercial, residential, and remote industrial project types."
+      }
+    ]
+  },
+  "cta": {
+    "heading": "Want to work with a crew that shows up on-site?",
+    "text": "Get in touch and talk directly with our leadership team about your project."
+  }
+}

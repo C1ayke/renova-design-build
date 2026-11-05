@@ -1,0 +1,39 @@
+{
+  "hero": {
+    "image": "/images/lawrence-way/IMG_5100.jpg",
+    "image_alt": "Finished cedar rainscreen siding on the Lawrence Way custom home in West Vancouver, with the waterfront beyond",
+    "kicker": "Contact Us",
+    "headline": "Let's Start Your Project.",
+    "subhead": "Tell us what you're building and a member of our leadership team will follow up with next steps and a free quote."
+  },
+  "primary_contact": "William Quesnel",
+  "email": "info@renovadesignbuild.com",
+  "phone": "(604) 763-5329",
+  "form_intro": {
+    "eyebrow": "Get A Free Quote",
+    "heading": "Tell us about your project.",
+    "text": "Fully licensed, WorkSafeBC insured, and Red Seal certified — we're ready to review your project details and get back to you promptly."
+  },
+  "direct_contact_heading": "Direct Contact",
+  "insurance": {
+    "heading": "Insurance & Licensing",
+    "text": "Renova Design Build carries full WorkSafeBC coverage and liability insurance across commercial, residential, and remote industrial project types. Red Seal certification and utility-level site safety compliance available on request."
+  },
+  "service_area": {
+    "eyebrow": "Service Area",
+    "heading": "Metro Vancouver & Regional British Columbia.",
+    "text": "We're based in Metro Vancouver and regularly take on structural, remediation, and turnkey construction work throughout Regional BC — including remote community projects.",
+    "areas": [
+      "Vancouver",
+      "Burnaby",
+      "North Vancouver",
+      "New Westminster",
+      "Coquitlam / Burquitlam",
+      "Surrey",
+      "Langley",
+      "Victoria & Vancouver Island",
+      "Regional & Remote BC",
+      "First Nations Communities"
+    ]
+  }
+}

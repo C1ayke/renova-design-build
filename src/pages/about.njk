@@ -1,0 +1,85 @@
+{% include "heads/about.html" %}{% set page = 'about' %}
+{% include "partials/header.njk" %}
+
+<main id="main">
+
+<!-- ===== Page hero ===== -->
+{% set hero = about.hero %}{% set heroClass = 'hero-page' %}{% set heroCta = 'btn-cta' %}
+{% include "partials/hero.njk" %}
+
+<!-- ===== Company story ===== -->
+<section class="section-cream">
+  <div class="wrap max-w-3xl">
+    <p class="eyebrow" style="color:var(--color-muted-gold);">{{ about.story.eyebrow }}</p>
+    <h2 class="section-heading mt-3">{{ about.story.heading }}</h2>
+    {% for para in about.story.paragraphs %}
+    <p class="{{ 'mt-6' if loop.first else 'mt-5' }}" style="color:var(--color-aged-bronze);">
+      {{ para }}
+    </p>
+    {% endfor %}
+  </div>
+</section>
+
+<!-- ===== Leadership team ===== -->
+<section class="section-candle reveal">
+  <div class="wrap">
+    <p class="eyebrow" style="color:var(--color-muted-gold);">{{ about.leadership.eyebrow }}</p>
+    <h2 class="section-heading mt-3">{{ about.leadership.heading }}</h2>
+    <p class="mt-4 max-w-2xl" style="color:var(--color-aged-bronze);">{{ about.leadership.intro }}</p>
+
+    <div class="leadership-photos mt-12">
+      {% for photo in about.leadership.photos %}
+      <figure>
+        <img src="{{ photo.image | asset }}" alt="{{ photo.image_alt }}" loading="lazy">
+        <figcaption>{{ photo.caption }}</figcaption>
+      </figure>
+      {% endfor %}
+    </div>
+
+    <div class="leader-list mt-12">
+      {% for leader in about.leadership.leaders %}
+      <div class="leader-row">
+        <h3>{{ leader.name }}</h3>
+        <p class="text-sm mt-1" style="color:var(--color-muted-gold);">{{ leader.role }}</p>
+        <p class="mt-3 text-sm max-w-2xl" style="color:var(--color-aged-bronze);">
+          {{ leader.bio }}
+        </p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<!-- ===== Certifications & safety ===== -->
+<section class="section-dark reveal">
+  <div class="wrap">
+    <p class="eyebrow" style="color:var(--color-amber-glow);">{{ about.certifications.eyebrow }}</p>
+    <h2 class="section-heading-dark mt-3 max-w-2xl">{{ about.certifications.heading }}</h2>
+
+    <div class="grid sm:grid-cols-2 gap-8 mt-12">
+      {% for item in about.certifications.items %}
+      <div class="border-t pt-6" style="border-color:var(--color-aged-bronze);">
+        <h3 class="text-lg font-medium" style="color:var(--color-warm-parchment);">{{ item.title }}</h3>
+        <p class="mt-2 text-sm" style="color:var(--color-candlelight);">{{ item.text }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<!-- ===== CTA ===== -->
+<section class="section-cream text-center">
+  <div class="wrap flex flex-col items-center">
+    <h2 class="section-heading text-center">{{ about.cta.heading }}</h2>
+    <p class="mt-4 max-w-xl" style="color:var(--color-aged-bronze);">{{ about.cta.text }}</p>
+    <a href="contact.html" class="btn-cta-dark mt-8">{{ site.quote_button }}</a>
+  </div>
+</section>
+
+</main>
+
+{% include "partials/footer.njk" %}
+
+<script src="js/main.js"></script>
+</body>
+</html>

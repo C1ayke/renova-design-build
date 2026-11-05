@@ -1,0 +1,161 @@
+{% include "heads/gallery.html" %}{% set page = 'gallery' %}
+{% include "partials/header.njk" %}
+
+<main id="main">
+
+<!-- ===== Page hero ===== -->
+{% set hero = gallery.hero %}{% set heroClass = 'hero-page' %}{% set heroCta = 'btn-cta' %}
+{% include "partials/hero.njk" %}
+
+{% macro photoGrid(photos, margin) %}
+<div class="support-grid {{ margin }}">
+  {% for p in photos %}
+  <div data-lightbox-trigger class="img-frame" data-caption="{{ p.caption }}"><img src="{{ p.image | asset }}"{% if p.image | srcset %} srcset="{{ p.image | srcset }}" sizes="(min-width:1024px) 23vw, (min-width:640px) 31vw, 46vw"{% endif %} alt="{{ p.image_alt }}" loading="lazy"></div>
+  {% endfor %}
+</div>
+{% endmacro %}
+
+{% macro baSide(side) %}
+<figure class="ba-item">
+  <span class="ba-label">{{ side.label }}</span>
+  <img src="{{ side.image | asset }}" alt="{{ side.image_alt }}" loading="lazy">
+  <figcaption>{{ side.caption }}</figcaption>
+</figure>
+{% endmacro %}
+
+{% macro video(v, margin) %}
+<figure class="video-figure{% if margin %} {{ margin }}{% endif %}">
+  <video class="video-embed" data-orientation="{{ v.shape or 'landscape' }}" controls muted disableremoteplayback controlslist="nodownload noplaybackrate" preload="none" playsinline{% if v.poster %} poster="{{ v.poster | asset }}"{% endif %}>
+    <source src="{{ v.file | asset }}" type="video/mp4">
+  </video>
+  <figcaption>{{ v.caption }}</figcaption>
+</figure>
+{% endmacro %}
+
+<!-- ===== Filter + projects ===== -->
+<section class="section-cream">
+  <div class="wrap">
+    <div class="flex flex-wrap gap-3 mb-12" role="group" aria-label="Filter projects by category">
+      <button class="filter-tab is-active" data-filter="all">{{ gallery.filters.all }}</button>
+      <button class="filter-tab" data-filter="custom-homes">{{ gallery.filters.custom_homes }}</button>
+      <button class="filter-tab" data-filter="equestrian-agricultural">{{ gallery.filters.equestrian_agricultural }}</button>
+      <button class="filter-tab" data-filter="renovations">{{ gallery.filters.renovations }}</button>
+    </div>
+
+    <div class="space-y-24">
+      {% for project in projects %}
+
+      <!-- ============ {{ loop.index }}. {{ project.name }} ============ -->
+      <article id="{{ project.slug }}" data-category="{{ project.category }}" class="project-block">
+        <p class="eyebrow" style="color:var(--color-muted-gold);">{{ project.eyebrow }}</p>
+        <h2 class="section-heading mt-3">{{ project.name }}</h2>
+        <p class="project-meta">{{ project.location }} &middot; {{ project.summary }}{% if project.role %} &middot; {{ project.role }}{% endif %}</p>
+        <p class="mt-4 max-w-2xl" style="color:var(--color-aged-bronze);">
+          {{ project.description }}
+        </p>
+        <ul class="mt-3 text-xs space-y-1" style="color:var(--color-aged-bronze);">
+          <li><strong>Scope:</strong> {{ project.scope }}</li>
+          {% for credit in project.credits %}
+          <li><strong>{{ credit.label }}:</strong> {{ credit.value }}</li>
+          {% endfor %}
+        </ul>
+
+        {# Spacing follows the section order so editors never have to manage it. #}
+        {% set prevType = '' %}
+        {% for sec in project.sections %}
+        {% set labelMargin = 'mt-8' if (loop.first or (sec.type == 'photo_grid' and prevType == 'lead')) else 'mt-12' %}
+
+        {% if sec.type == 'lead_photo' %}
+        {% if sec.label %}
+        <p class="media-label {{ labelMargin }}">{{ sec.label }}</p>
+        <figure class="project-card mt-3">
+        {% else %}
+        <figure class="project-card project-lead mt-8">
+        {% endif %}
+          <div data-lightbox-trigger class="img-frame cursor-pointer" data-caption="{{ sec.caption }}">
+            <img src="{{ sec.image | asset }}" alt="{{ sec.image_alt }}" loading="lazy">
+          </div>
+        </figure>
+        {% set prevType = 'figure' if sec.label else 'lead' %}
+
+        {% elif sec.type == 'photo_grid' %}
+        {% if sec.label %}
+        <p class="media-label {{ labelMargin }}">{{ sec.label }}</p>
+        {{ photoGrid(sec.photos, 'mt-3') }}
+        {% else %}
+        {{ photoGrid(sec.photos, 'mt-6' if prevType == 'lead' else 'mt-12') }}
+        {% endif %}
+        {% set prevType = 'grid' %}
+
+        {% elif sec.type == 'before_after' %}
+        <p class="media-label {{ labelMargin }}">{{ sec.label }}</p>
+        {% if sec.note %}
+        <p class="mt-3 max-w-2xl text-sm" style="color:var(--color-aged-bronze);">
+          {{ sec.note }}
+        </p>
+        {% endif %}
+        <div class="ba-pair mt-3">
+          {{ baSide(sec.before) }}
+          {{ baSide(sec.after) }}
+        </div>
+        {% if sec.extra_photos and sec.extra_photos.length %}
+        {{ photoGrid(sec.extra_photos, 'mt-6') }}
+        {% endif %}
+        {% set prevType = 'ba' %}
+
+        {% elif sec.type == 'single_photo' %}
+        <p class="media-label {{ labelMargin }}">{{ sec.label }}</p>
+        <figure class="ba-single mt-3">
+          <img src="{{ sec.image | asset }}" alt="{{ sec.image_alt }}" loading="lazy">
+          <figcaption>{{ sec.caption }}</figcaption>
+        </figure>
+        {% set prevType = 'single' %}
+
+        {% elif sec.type == 'videos' %}
+        <p class="media-label {{ labelMargin }}">{{ sec.label }}</p>
+        {% if sec.videos.length > 1 %}
+        <div class="grid gap-6 sm:grid-cols-2 mt-3">
+          {% for v in sec.videos %}{{ video(v) }}{% endfor %}
+        </div>
+        {% else %}
+        {% for v in sec.videos %}{{ video(v, 'mt-3') }}{% endfor %}
+        {% endif %}
+        {% set prevType = 'videos' %}
+        {% endif %}
+        {% endfor %}
+      </article>
+      {% endfor %}
+
+    </div>
+  </div>
+</section>
+
+<!-- ===== CTA ===== -->
+<section class="section-dark text-center reveal">
+  <div class="wrap flex flex-col items-center">
+    <h2 class="section-heading-dark text-center">{{ gallery.cta.heading }}</h2>
+    <p class="mt-4 max-w-xl" style="color:var(--color-candlelight);">{{ gallery.cta.text }}</p>
+    <a href="contact.html" class="btn-cta mt-8">{{ site.quote_button }}</a>
+  </div>
+</section>
+
+</main>
+
+{% include "partials/footer.njk" %}
+
+<!-- ===== Lightbox ===== -->
+<div class="lightbox" aria-hidden="true">
+  <button class="lightbox-close" aria-label="Close image viewer">&times;</button>
+  <div class="lightbox-inner">
+    <img src="" alt="">
+    <p class="lightbox-caption"></p>
+    <div class="flex justify-between mt-4">
+      <button class="lightbox-nav lightbox-prev" aria-label="Previous image">&larr;</button>
+      <button class="lightbox-nav lightbox-next" aria-label="Next image">&rarr;</button>
+    </div>
+  </div>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>

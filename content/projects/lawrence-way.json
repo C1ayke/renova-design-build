@@ -1,0 +1,94 @@
+{
+  "order": 3,
+  "name": "Lawrence Way",
+  "category": "custom-homes",
+  "eyebrow": "Custom Home",
+  "location": "West Vancouver, BC",
+  "summary": "Custom home",
+  "role": "Lead carpentry subcontractor for West Coast Turn Key",
+  "description": "A contemporary residence with mitered cedar rainscreen siding and an angular hemlock plank ceiling that follows the roofline through skylights, an open-riser oak stair, and glass railings. Renova self-performed the exterior envelope carpentry and the full hemlock soffit package.",
+  "scope": "Mitered cedar siding, hemlock soffit ceilings, stair & railing carpentry",
+  "credits": [
+    {
+      "label": "Client",
+      "value": "West Coast Turn Key"
+    }
+  ],
+  "sections": [
+    {
+      "type": "lead_photo",
+      "image": "/images/lawrence-way/IMG_5044.jpg",
+      "image_alt": "Lawrence Way custom home, West Vancouver — finished cedar cladding alongside an angled window, stone retaining wall and garden behind",
+      "caption": "Lawrence Way — finished cedar cladding at an angled window, stone retaining wall and garden behind."
+    },
+    {
+      "type": "photo_grid",
+      "label": "Interior — Hemlock Ceilings",
+      "photos": [
+        {
+          "image": "/images/lawrence-way/IMG_5102.jpg",
+          "image_alt": "Hemlock plank ceiling meeting an angled skylight at the Lawrence Way custom home, West Vancouver, oak floor and glass railing below",
+          "caption": "Lawrence Way — hemlock plank ceiling meeting an angled skylight, oak floor and glass railing below."
+        },
+        {
+          "image": "/images/lawrence-way/IMG_5106.jpg",
+          "image_alt": "Open-riser oak staircase with a glass railing under a hemlock soffit at the Lawrence Way custom home, West Vancouver",
+          "caption": "Lawrence Way — open-riser oak staircase with glass railing under a hemlock soffit."
+        },
+        {
+          "image": "/images/lawrence-way/IMG_5108.jpg",
+          "image_alt": "Hemlock ceiling wrapping into a skylight well with an exposed timber beam at the Lawrence Way custom home, West Vancouver",
+          "caption": "Lawrence Way — hemlock ceiling wrapping into a skylight well with an exposed timber beam."
+        }
+      ]
+    },
+    {
+      "type": "photo_grid",
+      "label": "Exterior — Cedar Siding",
+      "photos": [
+        {
+          "image": "/images/lawrence-way/IMG_5100.jpg",
+          "image_alt": "Cedar rainscreen siding with a concealed access hatch at the Lawrence Way custom home, West Vancouver, waterfront beyond",
+          "caption": "Lawrence Way — cedar rainscreen siding with concealed access hatch, waterfront beyond."
+        },
+        {
+          "image": "/images/lawrence-way/IMG_5095.jpg",
+          "image_alt": "Cedar siding elevation at the Lawrence Way custom home, West Vancouver",
+          "caption": "Lawrence Way — cedar siding elevation."
+        },
+        {
+          "image": "/images/lawrence-way/lead-mitered-cedar.jpg",
+          "image_alt": "Lawrence Way custom home, West Vancouver — close-up of a mitered corner on the cedar rainscreen siding, boards wrapping the corner with no trim",
+          "caption": "Lawrence Way — mitered corner detail on the cedar rainscreen siding."
+        },
+        {
+          "image": "/images/lawrence-way/IMG_5021.jpg",
+          "image_alt": "Cedar rainscreen siding detail at the Lawrence Way custom home, West Vancouver",
+          "caption": "Lawrence Way — cedar siding detail."
+        },
+        {
+          "image": "/images/lawrence-way/IMG_5099.jpg",
+          "image_alt": "Cedar siding and window integration at the Lawrence Way custom home, West Vancouver",
+          "caption": "Lawrence Way — cedar siding and window integration."
+        },
+        {
+          "image": "/images/lawrence-way/IMG_4668.jpg",
+          "image_alt": "Cedar siding mitered corner at the Lawrence Way custom home, West Vancouver",
+          "caption": "Lawrence Way — cedar siding corner."
+        }
+      ]
+    },
+    {
+      "type": "videos",
+      "label": "Project video",
+      "videos": [
+        {
+          "file": "/videos/lawrence-way/IMG_5101.mp4",
+          "poster": "/videos/lawrence-way/IMG_5101-poster.jpg",
+          "shape": "portrait",
+          "caption": "Finished hallway pan, including the exposed steel beam-to-post connector detail."
+        }
+      ]
+    }
+  ]
+}

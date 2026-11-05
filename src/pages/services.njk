@@ -1,0 +1,80 @@
+{% include "heads/services.html" %}{% set page = 'services' %}
+{% include "partials/header.njk" %}
+
+<main id="main">
+
+<!-- ===== Page hero ===== -->
+{% set hero = services.hero %}{% set heroClass = 'hero-page' %}{% set heroCta = 'btn-cta' %}
+{% include "partials/hero.njk" %}
+
+<!-- ===== Intro ===== -->
+<section class="section-cream pb-0 md:pb-0" style="padding-bottom: 0;">
+  <div class="wrap">
+    <p class="eyebrow" style="color:var(--color-muted-gold);">{{ services.intro.eyebrow }}</p>
+    <h2 class="section-heading mt-3 max-w-3xl">{{ services.intro.heading }}</h2>
+    <p class="mt-6 max-w-3xl" style="color:var(--color-aged-bronze); font-size: var(--text-body);">
+      {{ services.intro.text }}
+    </p>
+  </div>
+</section>
+
+{# Section colour alternates by position; services with extra photos stack image-first on mobile. #}
+{% for s in services.services %}
+{% set imageFirst = s.extra_images and s.extra_images.length %}
+<!-- ===== Service {{ loop.index }}: {{ s.name }} ===== -->
+<section id="{{ s.anchor or (s.name | slug) }}" class="{{ 'section-cream' if loop.index % 2 else 'section-candle' }} reveal">
+  <div class="wrap grid lg:grid-cols-2 gap-10 items-center">
+    {% if imageFirst %}
+    <figure class="project-card lg:order-2">
+      <div class="img-frame">
+        <img src="{{ s.image | asset }}" alt="{{ s.image_alt }}" class="ph-photo" loading="lazy">
+      </div>
+      <div class="support-grid mt-3" style="grid-template-columns:1fr 1fr;">
+        {% for x in s.extra_images %}
+        <div class="img-frame"><img src="{{ x.image | asset }}" alt="{{ x.image_alt }}" loading="lazy"></div>
+        {% endfor %}
+      </div>
+    </figure>
+    {% endif %}
+    <div{% if imageFirst %} class="lg:order-1"{% endif %}>
+      <p class="eyebrow" style="color:var(--color-muted-gold);">{{ loop.index | twoDigit }} &middot; {{ s.short_name }}</p>
+      <h2 class="section-heading mt-3">{{ s.name }}</h2>
+      {% for para in s.paragraphs %}
+      <p class="{{ 'mt-5' if loop.first else 'mt-4' }}" style="color:var(--color-aged-bronze);">
+        {{ para }}
+      </p>
+      {% endfor %}
+      {% if s.example %}
+      <p class="mt-4 text-sm" style="color:var(--color-aged-bronze);">
+        <strong>{{ s.example_label }}:</strong> {{ s.example }}
+      </p>
+      {% endif %}
+      <a href="{{ ('gallery.html#' + s.related_project) if s.related_project else 'contact.html' }}" class="link-underline mt-6 inline-block">{{ s.link_label }} &rarr;</a>
+    </div>
+    {% if not imageFirst %}
+    <figure class="project-card">
+      <div class="img-frame">
+        <img src="{{ s.image | asset }}" alt="{{ s.image_alt }}" class="ph-photo" loading="lazy">
+      </div>
+    </figure>
+    {% endif %}
+  </div>
+</section>
+
+{% endfor %}
+<!-- ===== CTA ===== -->
+<section class="section-dark text-center">
+  <div class="wrap flex flex-col items-center">
+    <h2 class="section-heading-dark text-center">{{ services.cta.heading }}</h2>
+    <p class="mt-4 max-w-xl" style="color:var(--color-candlelight);">{{ services.cta.text }}</p>
+    <a href="contact.html" class="btn-cta mt-8">{{ site.quote_button }}</a>
+  </div>
+</section>
+
+</main>
+
+{% include "partials/footer.njk" %}
+
+<script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,107 @@
+{
+  "order": 1,
+  "name": "Cove Beach",
+  "category": "custom-homes",
+  "eyebrow": "Custom Home",
+  "location": "Sechelt, BC",
+  "summary": "Waterfront custom home",
+  "role": "Lead carpentry subcontractor for West Coast Turn Key",
+  "description": "A modern glass-and-timber waterfront home set into a rock bluff above the ocean. Renova delivered the mitered cedar rainscreen siding with true waterfall corners and the hemlock waterfall soffits inside and out. At the main entryway, the crew ran the hemlock soffit as one continuous line from the interior ceiling straight through to the exterior overhang with no visible break at the glass — one of the more impressive details of the job.",
+  "scope": "Mitered cedar siding, hemlock soffit ceilings",
+  "credits": [
+    {
+      "label": "Client",
+      "value": "West Coast Turn Key"
+    }
+  ],
+  "sections": [
+    {
+      "type": "lead_photo",
+      "image": "/images/cove-beach/IMG_5357.jpg",
+      "image_alt": "Cove Beach custom home, Sechelt, BC — modern glass waterfront house on a rock bluff, ocean beyond",
+      "caption": "Cove Beach — modern glass waterfront home on a rock bluff above the ocean, Sechelt."
+    },
+    {
+      "type": "photo_grid",
+      "photos": [
+        {
+          "image": "/images/cove-beach/IMG_5351.jpg",
+          "image_alt": "Hemlock soffit ceiling with recessed lighting at the Cove Beach custom home, Sechelt",
+          "caption": "Cove Beach — hemlock soffit ceiling with recessed lighting."
+        },
+        {
+          "image": "/images/cove-beach/IMG_5355.jpg",
+          "image_alt": "Finished hemlock ceiling and full-height glazing at the Cove Beach custom home, Sechelt",
+          "caption": "Cove Beach — finished hemlock ceiling and glazing."
+        },
+        {
+          "image": "/images/cove-beach/IMG_5365.jpg",
+          "image_alt": "Cove Beach custom home exterior with grey cedar siding, Sechelt",
+          "caption": "Cove Beach — exterior overview with cedar siding."
+        },
+        {
+          "image": "/images/cove-beach/IMG_2182.jpg",
+          "image_alt": "Hemlock soffit and structural glazing detail at the Cove Beach custom home, Sechelt",
+          "caption": "Cove Beach — hemlock soffit and structural glazing detail."
+        },
+        {
+          "image": "/images/cove-beach/IMG_1826.jpg",
+          "image_alt": "Interior hemlock plank ceiling run at the Cove Beach custom home, Sechelt",
+          "caption": "Cove Beach — interior hemlock ceiling run."
+        },
+        {
+          "image": "/images/cove-beach/IMG_2171.jpg",
+          "image_alt": "Hemlock soffit meeting a stone feature wall at the Cove Beach custom home, Sechelt",
+          "caption": "Cove Beach — hemlock soffit meeting stone wall."
+        }
+      ]
+    },
+    {
+      "type": "before_after",
+      "label": "Before / After — hemlock ceiling",
+      "before": {
+        "label": "Before",
+        "image": "/images/cove-beach/IMG_1549.jpg",
+        "image_alt": "Cove Beach custom home ceiling before finishing — raw plywood substrate with taped air-sealing seams, Sechelt",
+        "caption": "Raw plywood substrate with taped air-sealing seams."
+      },
+      "after": {
+        "label": "After",
+        "image": "/images/cove-beach/IMG_3407.jpg",
+        "image_alt": "Finished hemlock plank ceiling with recessed lighting at the Cove Beach custom home, Sechelt",
+        "caption": "Finished hemlock plank ceiling with integrated lighting."
+      }
+    },
+    {
+      "type": "single_photo",
+      "label": "In progress → complete — exterior soffit",
+      "image": "/images/cove-beach/IMG_2184.jpg",
+      "image_alt": "Cove Beach exterior hemlock soffit mid-install — finished hemlock on one side, exposed framing on the other, ocean beyond, Sechelt",
+      "caption": "One continuous run of exterior soffit — finished hemlock transitioning into exposed framing still being installed."
+    },
+    {
+      "type": "videos",
+      "label": "Project video",
+      "videos": [
+        {
+          "file": "/videos/cove-beach/IMG_5347.mp4",
+          "poster": "/videos/cove-beach/IMG_5347-poster.jpg",
+          "shape": "portrait",
+          "caption": "Exterior pan — cedar siding and soffit."
+        },
+        {
+          "file": "/videos/cove-beach/IMG_5348.mp4",
+          "poster": "/videos/cove-beach/IMG_5348-poster.jpg",
+          "shape": "portrait",
+          "caption": "Exterior pan — deck and waterfront."
+        },
+        {
+          "file": "/videos/cove-beach/IMG_5353.mp4",
+          "poster": "/videos/cove-beach/IMG_5353-poster.jpg",
+          "shape": "portrait",
+          "caption": "Interior walkthrough — wall art, home gym, staircase."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{% include "heads/contact.html" %}{% set page = 'contact' %}
+{% include "partials/header.njk" %}
+
+<main id="main">
+
+<!-- ===== Page hero ===== -->
+{% set hero = contact.hero %}{% set heroClass = 'hero-page' %}{% set heroCta = '' %}
+{% include "partials/hero.njk" %}
+
+<!-- ===== Contact form + details ===== -->
+<section class="section-cream">
+  <div class="wrap grid lg:grid-cols-5 gap-12">
+
+    <!-- Form -->
+    <div class="lg:col-span-3">
+      <p class="eyebrow" style="color:var(--color-muted-gold);">{{ contact.form_intro.eyebrow }}</p>
+      <h2 class="section-heading mt-3">{{ contact.form_intro.heading }}</h2>
+      <p class="mt-4 text-sm" style="color:var(--color-aged-bronze);">
+        {{ contact.form_intro.text }}
+      </p>
+
+      <form id="contact-form" class="mt-10 space-y-6" novalidate>
+        <div class="grid sm:grid-cols-2 gap-6">
+          <div>
+            <label for="name" class="field-label">Full Name</label>
+            <input type="text" id="name" name="name" class="field-input" placeholder="Jane Smith" autocomplete="name" required>
+          </div>
+          <div>
+            <label for="email" class="field-label">Email</label>
+            <input type="email" id="email" name="email" class="field-input" placeholder="jane@example.com" autocomplete="email" required>
+          </div>
+        </div>
+
+        <div class="grid sm:grid-cols-2 gap-6">
+          <div>
+            <label for="phone" class="field-label">Phone</label>
+            <input type="tel" id="phone" name="phone" class="field-input" placeholder="{{ contact.phone }}" autocomplete="tel">
+          </div>
+          <div>
+            <label for="project-type" class="field-label">Project Type</label>
+            <select id="project-type" name="project-type" class="field-select">
+              <option value="">Select a project type&hellip;</option>
+              <option value="custom-home">Custom Home / Design-Build</option>
+              <option value="residential-remodel">Residential Remodel</option>
+              <option value="structural-concrete">Architectural Concrete / Formwork</option>
+              <option value="heavy-timber-remediation">Heavy Timber / Structural Remediation</option>
+              <option value="architectural-finishing">Architectural Finishing / Millwork</option>
+              <option value="commercial-subcontracting">Commercial / Multi-Family Subcontracting</option>
+              <option value="community-first-nations">Community / First Nations Project</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+        </div>
+
+        <div>
+          <label for="message" class="field-label">Project Details</label>
+          <textarea id="message" name="message" rows="6" class="field-textarea" placeholder="Tell us about your project — location, timeline, and scope."></textarea>
+        </div>
+
+        <div>
+          <button type="submit" class="btn-cta-dark btn-sm">Send Project Details</button>
+          <p id="form-note" class="mt-4 text-sm" style="display:none; color:var(--color-aged-bronze);" role="status"></p>
+        </div>
+
+        <!--
+          Form is markup-only for this pitch mockup. To go live, wire the
+          `submit` handler in js/main.js to a Formspree endpoint or a
+          Vercel serverless function (e.g. POST /api/contact) and remove
+          the preventDefault() guard.
+        -->
+      </form>
+    </div>
+
+    <!-- Contact details -->
+    <div class="lg:col-span-2">
+      <div class="hairline p-8" style="background-color:var(--color-candlelight);">
+        <h3 class="text-lg font-medium">{{ contact.direct_contact_heading }}</h3>
+        <div class="mt-6 space-y-4 text-sm">
+          <div>
+            <p style="color:var(--color-aged-bronze);">Primary Contact</p>
+            <p class="font-medium">{{ contact.primary_contact }}</p>
+          </div>
+          <div>
+            <p style="color:var(--color-aged-bronze);">Email</p>
+            <a href="mailto:{{ contact.email }}" class="link-underline font-medium">{{ contact.email }}</a>
+          </div>
+          <div>
+            <p style="color:var(--color-aged-bronze);">Phone</p>
+            <a href="{{ contact.phone | telHref }}" class="link-underline font-medium">{{ contact.phone }}</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="hairline p-8 mt-6" style="background-color:var(--color-candlelight);">
+        <h3 class="text-lg font-medium">{{ contact.insurance.heading }}</h3>
+        <p class="mt-3 text-sm" style="color:var(--color-aged-bronze);">{{ contact.insurance.text }}</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ===== Service area ===== -->
+<section class="section-candle reveal">
+  <div class="wrap grid lg:grid-cols-2 gap-10 items-center">
+    <div>
+      <p class="eyebrow" style="color:var(--color-muted-gold);">{{ contact.service_area.eyebrow }}</p>
+      <h2 class="section-heading mt-3">{{ contact.service_area.heading }}</h2>
+      <p class="mt-5" style="color:var(--color-aged-bronze);">
+        {{ contact.service_area.text }}
+      </p>
+      <ul class="mt-6 grid grid-cols-2 gap-y-2 text-sm" style="color:var(--color-aged-bronze);">
+        {% for area in contact.service_area.areas %}
+        <li>&middot; {{ area }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+    <figure>
+      <img src="images/map-placeholder.svg" alt="Map of the Renova Design Build service area across Metro Vancouver — including North Vancouver, New Westminster, Langley and Surrey — and Regional British Columbia" class="w-full">
+    </figure>
+  </div>
+</section>
+
+</main>
+
+{% include "partials/footer.njk" %}
+
+<script src="js/main.js"></script>
+</body>
+</html>

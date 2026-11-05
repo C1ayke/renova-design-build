@@ -1,0 +1,499 @@
+# Sveltia CMS. Only what's listed here is editable by the client.
+# Layout, styling, SEO meta tags and schema markup are code-only (src/).
+backend:
+  name: github
+  repo: C1ayke/renova-design-build
+  branch: main
+  base_url: https://www.renovadesignbuild.com
+  auth_endpoint: api/auth
+  commit_messages:
+    create: 'Add {{collection}} "{{slug}}" via CMS'
+    update: 'Update {{collection}} "{{slug}}" via CMS'
+    delete: 'Delete {{collection}} "{{slug}}" via CMS'
+    uploadMedia: 'Upload "{{path}}" via CMS'
+    deleteMedia: 'Delete "{{path}}" via CMS'
+
+app_title: Renova Website Editor
+logo_url: /images/logo/Renova_Logo_Transparent.png
+site_url: https://www.renovadesignbuild.com
+display_url: https://www.renovadesignbuild.com
+editor:
+  preview: false
+
+# All existing photos live under /images, so they show up in the media picker.
+media_folder: /images
+public_folder: /images
+media_libraries:
+  default:
+    config:
+      max_file_size: 52428800 # 50 MB, for short video clips
+      slugify_filename: true
+      transformations:
+        raster_image:
+          format: webp
+          quality: 85
+          width: 2200
+          height: 2200
+
+collections:
+  # ---------- Pages ----------
+  - name: pages
+    label: Pages
+    label_singular: Page
+    icon: description
+    delete: false
+    create: false
+    files:
+      - name: home
+        label: Home Page
+        file: content/home.json
+        fields:
+          - &hero
+            name: hero
+            label: Top Banner
+            widget: object
+            fields:
+              - &photo { name: image, label: Photo, widget: image, accept: "image/jpeg,image/png,image/webp" }
+              - &alt { name: image_alt, label: Photo description, widget: string, hint: "One sentence describing the photo, for Google and screen readers." }
+              - { name: kicker, label: Small line above the headline, widget: string }
+              - { name: headline, label: Headline, widget: text, hint: "Press Enter to start a new line." }
+              - { name: subhead, label: Text under the headline, widget: text }
+          - name: vision
+            label: Vision Statement
+            widget: object
+            fields:
+              - &eyebrow { name: eyebrow, label: Small heading, widget: string }
+              - { name: statement, label: Statement, widget: text }
+          - name: trust_bar
+            label: Trust Bar
+            widget: list
+            allow_add: false
+            allow_remove: false
+            summary: "{{headline}}"
+            fields:
+              - { name: headline, label: Headline, widget: string }
+              - { name: label, label: Label, widget: string }
+          - name: photo_band
+            label: Full-Width Photo Band
+            widget: object
+            fields:
+              - *photo
+              - *alt
+              - { name: title, label: Title, widget: string }
+              - { name: label, label: Small line, widget: string }
+          - name: services_overview
+            label: Services Overview
+            widget: object
+            fields:
+              - *eyebrow
+              - &heading { name: heading, label: Heading, widget: string }
+              - { name: intro, label: Intro text, widget: text }
+              - name: cards
+                label: Service Cards
+                widget: list
+                allow_add: false
+                allow_remove: false
+                allow_reorder: false
+                summary: "{{title}}"
+                fields:
+                  - { name: title, label: Title, widget: string }
+                  - { name: text, label: Text, widget: text }
+              - { name: closing_text, label: Last card text, widget: text }
+              - { name: closing_link, label: Last card link text, widget: string }
+          - name: process
+            label: Our Process
+            widget: object
+            fields:
+              - *eyebrow
+              - *heading
+              - { name: intro, label: Intro text, widget: text }
+              - name: steps
+                label: Steps
+                label_singular: Step
+                widget: list
+                summary: "{{title}}"
+                hint: "Steps are numbered automatically. Drag to reorder."
+                fields:
+                  - { name: title, label: Title, widget: string }
+                  - { name: text, label: Text, widget: text }
+          - name: featured
+            label: Featured Projects
+            widget: object
+            fields:
+              - *eyebrow
+              - *heading
+              - { name: gallery_link, label: Gallery link text, widget: string }
+              - name: projects
+                label: Projects to feature
+                label_singular: Featured project
+                widget: list
+                summary: "{{project}}"
+                fields:
+                  - { name: project, label: Project, widget: relation, collection: projects, value_field: "{{slug}}", display_fields: [name], search_fields: [name] }
+                  - *photo
+                  - *alt
+                  - { name: summary, label: One-line summary, widget: string }
+          - name: credentials
+            label: Credentials
+            widget: object
+            fields:
+              - *eyebrow
+              - *heading
+              - &title_text_items
+                name: items
+                label: Items
+                label_singular: Item
+                widget: list
+                summary: "{{title}}"
+                fields:
+                  - { name: title, label: Title, widget: string }
+                  - { name: text, label: Text, widget: text }
+          - &cta
+            name: cta
+            label: Call-to-Action Banner
+            widget: object
+            fields:
+              - *heading
+              - { name: text, label: Text, widget: text }
+          - name: faq
+            label: FAQ
+            widget: object
+            fields:
+              - *eyebrow
+              - *heading
+              - name: items
+                label: Questions
+                label_singular: Question
+                widget: list
+                summary: "{{question}}"
+                fields:
+                  - { name: question, label: Question, widget: string }
+                  - { name: answer, label: Answer, widget: text, hint: "Type {email} or {phone} to insert a link using the details on the Contact Page." }
+
+      - name: services
+        label: Services Page
+        file: content/services.json
+        fields:
+          - *hero
+          - name: intro
+            label: Intro
+            widget: object
+            fields:
+              - *eyebrow
+              - *heading
+              - { name: text, label: Text, widget: text }
+          - name: services
+            label: Services
+            label_singular: Service
+            widget: list
+            summary: "{{name}}"
+            hint: "Drag to change the order. Numbers and background colours update automatically."
+            fields:
+              - { name: anchor, label: Link ID, widget: string, readonly: true, required: false }
+              - { name: name, label: Service name, widget: string }
+              - { name: short_name, label: Short name (small heading above the title), widget: string }
+              - name: paragraphs
+                label: Description
+                label_singular: Paragraph
+                widget: list
+                field: { name: paragraph, label: Paragraph, widget: text }
+              - { name: example_label, label: Example heading, widget: string, default: Project example, required: false }
+              - { name: example, label: Project example, widget: text, required: false }
+              - { name: link_label, label: Link text, widget: string }
+              - { name: related_project, label: Link goes to project, widget: relation, collection: projects, value_field: "{{slug}}", display_fields: [name], search_fields: [name], required: false, hint: "Leave empty to link to the Contact page." }
+              - *photo
+              - *alt
+              - name: extra_images
+                label: Extra photos
+                label_singular: Photo
+                widget: list
+                required: false
+                summary: "{{image_alt}}"
+                fields:
+                  - *photo
+                  - *alt
+          - *cta
+
+      - name: about
+        label: About Page
+        file: content/about.json
+        fields:
+          - *hero
+          - name: story
+            label: Company Story
+            widget: object
+            fields:
+              - *eyebrow
+              - *heading
+              - name: paragraphs
+                label: Story
+                label_singular: Paragraph
+                widget: list
+                field: { name: paragraph, label: Paragraph, widget: text }
+          - name: leadership
+            label: Leadership
+            widget: object
+            fields:
+              - *eyebrow
+              - *heading
+              - { name: intro, label: Intro text, widget: text }
+              - name: photos
+                label: Photos
+                label_singular: Photo
+                widget: list
+                summary: "{{caption}}"
+                fields:
+                  - *photo
+                  - *alt
+                  - { name: caption, label: Caption, widget: string }
+              - name: leaders
+                label: Team bios
+                label_singular: Team member
+                widget: list
+                summary: "{{name}}"
+                fields:
+                  - { name: name, label: Name, widget: string }
+                  - { name: role, label: Role, widget: string }
+                  - { name: bio, label: Bio, widget: text }
+          - name: certifications
+            label: Certifications & Safety
+            widget: object
+            fields:
+              - *eyebrow
+              - *heading
+              - *title_text_items
+          - *cta
+
+      - name: gallery
+        label: Gallery Page
+        file: content/gallery.json
+        fields:
+          - *hero
+          - name: filters
+            label: Filter Button Labels
+            widget: object
+            fields:
+              - { name: all, label: All projects, widget: string }
+              - { name: custom_homes, label: Custom homes, widget: string }
+              - { name: equestrian_agricultural, label: Equestrian & agricultural, widget: string }
+              - { name: renovations, label: Renovations, widget: string }
+          - *cta
+
+      - name: contact
+        label: Contact Page
+        file: content/contact.json
+        fields:
+          - { name: primary_contact, label: Primary contact name, widget: string, hint: "Also shown in the footer." }
+          - { name: phone, label: Phone, widget: string, hint: "Also used in the footer and FAQ. Example: (604) 763-5329" }
+          - { name: email, label: Email, widget: string, type: email, hint: "Also used in the footer and FAQ." }
+          - *hero
+          - name: form_intro
+            label: Quote Form Intro
+            widget: object
+            fields:
+              - *eyebrow
+              - *heading
+              - { name: text, label: Text, widget: text }
+          - { name: direct_contact_heading, label: Contact box heading, widget: string }
+          - name: insurance
+            label: Insurance & Licensing Box
+            widget: object
+            fields:
+              - *heading
+              - { name: text, label: Text, widget: text }
+          - name: service_area
+            label: Service Area
+            widget: object
+            fields:
+              - *eyebrow
+              - *heading
+              - { name: text, label: Text, widget: text }
+              - name: areas
+                label: Areas
+                label_singular: Area
+                widget: list
+                field: { name: area, label: Area, widget: string }
+
+  # ---------- Gallery projects (one entry per project) ----------
+  - name: projects
+    label: Gallery Projects
+    label_singular: Project
+    icon: photo_library
+    folder: content/projects
+    format: json
+    extension: json
+    create: true
+    delete: true
+    identifier_field: name
+    slug: "{{slug}}"
+    summary: "{{order}}. {{name}}"
+    sortable_fields:
+      fields: [order, name]
+      default: { field: order, direction: ascending }
+    fields:
+      - { name: order, label: Position on the page, widget: number, value_type: int, min: 1, default: 100, hint: "Lower numbers appear first." }
+      - { name: name, label: Project name, widget: string }
+      - name: category
+        label: Filter category
+        widget: select
+        options:
+          - { label: Custom Homes & Additions, value: custom-homes }
+          - { label: Equestrian & Agricultural, value: equestrian-agricultural }
+          - { label: Renovations, value: renovations }
+      - { name: eyebrow, label: Project type (small heading), widget: string }
+      - { name: location, label: Location, widget: string, hint: "Example: Langley, BC" }
+      - { name: summary, label: One-line summary, widget: string }
+      - { name: role, label: Renova's role, widget: string, required: false, hint: "Optional. Example: Lead carpentry subcontractor for West Coast Turn Key" }
+      - { name: description, label: Description, widget: text }
+      - { name: scope, label: Scope, widget: string }
+      - name: credits
+        label: Other details
+        label_singular: Detail
+        widget: list
+        required: false
+        summary: "{{label}}: {{value}}"
+        fields:
+          - { name: label, label: Label, widget: string, hint: "Example: Client" }
+          - { name: value, label: Value, widget: string }
+      - name: sections
+        label: Photos & Videos
+        label_singular: Section
+        widget: list
+        hint: "Sections appear in this order. Drag to rearrange."
+        types:
+          - name: lead_photo
+            label: Large photo
+            summary: "Large photo: {{caption}}"
+            fields:
+              - { name: label, label: Heading above, widget: string, required: false, hint: "Leave empty for the project's main photo." }
+              - *photo
+              - *alt
+              - &caption { name: caption, label: Caption, widget: string }
+          - name: photo_grid
+            label: Photo grid
+            summary: "Photo grid: {{label}}"
+            fields:
+              - { name: label, label: Heading above, widget: string, required: false }
+              - name: photos
+                label: Photos
+                label_singular: Photo
+                widget: list
+                summary: "{{caption}}"
+                fields:
+                  - *photo
+                  - *alt
+                  - *caption
+          - name: before_after
+            label: Before / after pair
+            summary: "{{label}}"
+            fields:
+              - { name: label, label: Heading, widget: string, hint: "Example: Before / After — kitchen" }
+              - { name: note, label: Note under the heading, widget: text, required: false }
+              - name: before
+                label: Before
+                widget: object
+                fields:
+                  - { name: label, label: Tag on the photo, widget: string, default: Before }
+                  - *photo
+                  - *alt
+                  - *caption
+              - name: after
+                label: After
+                widget: object
+                fields:
+                  - { name: label, label: Tag on the photo, widget: string, default: After }
+                  - *photo
+                  - *alt
+                  - *caption
+              - name: extra_photos
+                label: Extra photos under this pair
+                label_singular: Photo
+                widget: list
+                required: false
+                summary: "{{caption}}"
+                fields:
+                  - *photo
+                  - *alt
+                  - *caption
+          - name: single_photo
+            label: Single wide photo with heading
+            summary: "{{label}}"
+            fields:
+              - { name: label, label: Heading, widget: string }
+              - *photo
+              - *alt
+              - *caption
+          - name: videos
+            label: Video
+            summary: "{{label}}"
+            fields:
+              - { name: label, label: Heading, widget: string, default: Project video }
+              - name: videos
+                label: Videos
+                label_singular: Video
+                widget: list
+                summary: "{{caption}}"
+                fields:
+                  - { name: file, label: Video file (MP4), widget: file, accept: video/mp4, media_folder: /videos, public_folder: /videos, hint: "MP4 only, under 50 MB." }
+                  - { name: poster, label: Cover image, widget: image, required: false, media_folder: /videos, public_folder: /videos }
+                  - name: shape
+                    label: Video shape
+                    widget: select
+                    default: landscape
+                    options:
+                      - { label: Horizontal, value: landscape }
+                      - { label: Vertical (phone), value: portrait }
+                  - *caption
+
+  # ---------- Header & footer ----------
+  - name: layout
+    label: Site Layout
+    icon: web
+    delete: false
+    create: false
+    files:
+      - name: site
+        label: Header & Footer
+        file: content/site.json
+        fields:
+          - { name: logo, label: Logo, widget: image, accept: "image/png,image/svg+xml,image/webp" }
+          - { name: logo_alt, label: Logo description, widget: string }
+          - name: nav
+            label: Menu Labels
+            widget: object
+            fields:
+              - { name: home, label: Home, widget: string }
+              - { name: services, label: Services, widget: string }
+              - { name: gallery, label: Gallery, widget: string }
+              - { name: about, label: About, widget: string }
+              - { name: contact, label: Contact, widget: string }
+          - { name: quote_button, label: Quote button text, widget: string, hint: "Used on every quote button across the site." }
+          - name: footer
+            label: Footer
+            widget: object
+            hint: "Phone, email and contact name are edited on the Contact Page."
+            fields:
+              - { name: tagline, label: Tagline, widget: text }
+              - { name: company_heading, label: Company column heading, widget: string }
+              - name: company_links
+                label: Company column links
+                widget: object
+                fields:
+                  - { name: about, label: About, widget: string }
+                  - { name: services, label: Services, widget: string }
+                  - { name: gallery, label: Gallery, widget: string }
+                  - { name: contact, label: Contact, widget: string }
+              - { name: contact_heading, label: Contact column heading, widget: string }
+              - name: social_links
+                label: Social links
+                label_singular: Social link
+                widget: list
+                required: false
+                summary: "{{label}}"
+                fields:
+                  - { name: label, label: Name, widget: string, hint: "Example: Instagram" }
+                  - { name: url, label: Link, widget: string, type: url }
+              - { name: service_area_heading, label: Service area heading, widget: string }
+              - { name: service_area, label: Service area text, widget: string }
+              - { name: copyright, label: Copyright line (after the year), widget: string }
+              - { name: credentials_line, label: Credentials line, widget: string }

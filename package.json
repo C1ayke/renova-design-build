@@ -1,0 +1,13 @@
+{
+  "name": "renova-design-build",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs"
+  },
+  "engines": { "node": ">=22" },
+  "dependencies": {
+    "image-size": "1.2.1",
+    "nunjucks": "3.2.4"
+  }
+}

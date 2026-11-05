@@ -1,0 +1,79 @@
+{
+  "order": 6,
+  "name": "Wende's Remodel",
+  "category": "renovations",
+  "eyebrow": "Renovation",
+  "location": "New Westminster, BC",
+  "summary": "Kitchen, flooring & millwork",
+  "description": "A dated condo interior reworked end to end: espresso cabinets and black appliances replaced with navy and white cabinetry, a marble waterfall island and built-in microwave; dark-stained floors replaced throughout with light wide-plank oak.",
+  "scope": "Kitchen renovation, full flooring replacement, millwork",
+  "credits": [],
+  "sections": [
+    {
+      "type": "lead_photo",
+      "label": "Design Concept",
+      "image": "/images/wende/Wende_Island_Design_Concept.png",
+      "image_alt": "3D design concept render of the kitchen island for Wende's Remodel, New Westminster",
+      "caption": "Wende's Remodel — 3D design concept render of the kitchen island."
+    },
+    {
+      "type": "before_after",
+      "label": "Before / After — kitchen",
+      "before": {
+        "label": "Before",
+        "image": "/images/wende/IMG_8880.jpg",
+        "image_alt": "Wende kitchen before renovation in New Westminster — dark espresso cabinets, speckled granite and black appliances",
+        "caption": "Dark espresso cabinets, granite counters, black appliances."
+      },
+      "after": {
+        "label": "After",
+        "image": "/images/wende/IMG_0679.jpg",
+        "image_alt": "Wende kitchen after renovation, New Westminster — navy cabinets, white uppers, marble waterfall island and built-in microwave",
+        "caption": "Navy and white cabinetry, marble waterfall island, built-in microwave."
+      }
+    },
+    {
+      "type": "before_after",
+      "label": "Before / After — flooring",
+      "before": {
+        "label": "Before",
+        "image": "/images/wende/IMG_8882.jpg",
+        "image_alt": "Wende hallway before renovation in New Westminster — dark-stained hardwood flooring and dated ceiling fixtures",
+        "caption": "Dark-stained hardwood throughout."
+      },
+      "after": {
+        "label": "After",
+        "image": "/images/wende/IMG_0691.jpg",
+        "image_alt": "Wende's Remodel, New Westminster — new light wide-plank oak flooring beside a marble waterfall island edge",
+        "caption": "Light wide-plank oak, replaced throughout."
+      }
+    },
+    {
+      "type": "photo_grid",
+      "photos": [
+        {
+          "image": "/images/wende/IMG_0700.jpg",
+          "image_alt": "Renovated Wende kitchen in New Westminster showing the marble waterfall island and range",
+          "caption": "Wende's Remodel — renovated kitchen, island and range."
+        },
+        {
+          "image": "/images/wende/IMG_0703.jpg",
+          "image_alt": "Renovated Wende kitchen and bar area, New Westminster",
+          "caption": "Wende's Remodel — kitchen and bar area."
+        }
+      ]
+    },
+    {
+      "type": "videos",
+      "label": "Project video",
+      "videos": [
+        {
+          "file": "/videos/wende/IMG_8884.mp4",
+          "poster": "/videos/wende/IMG_8884-poster.jpg",
+          "shape": "landscape",
+          "caption": "Walkthrough of the unit before the renovation."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "hero": {
+    "image": "/images/older-work/IMG_0097.jpg",
+    "image_alt": "Large-scale commercial concrete formwork on an urban job site — excavation, formed foundation walls, column forms and an excavator",
+    "kicker": "Our Services",
+    "headline": "Full General Contracting. Master Carpentry.",
+    "subhead": "Whether we're your design-build general contractor running the whole project, or your high-precision carpentry subcontractor, every scope below is led on-site by a Red Seal trade leader."
+  },
+  "intro": {
+    "eyebrow": "Our Approach",
+    "heading": "Design-build, done the way trade leaders would do it themselves.",
+    "text": "Renova Design Build works two ways: as the primary design-build general contractor bringing a custom home or renovation from first sketch to final walkthrough — carrying the permitting, budgeting, scheduling, and multi-trade coordination — and as a high-precision carpentry subcontractor embedded inside larger commercial and multi-family developments. In both cases the model is the same — Bill Sr., Bill Jr., and Nicholas are on-site directing the work, not managing it from an office. That's what lets us move fluidly between structural concrete formwork on an urban commercial site, framing an equestrian arena, and fine millwork on a custom residence, often in the same season."
+  },
+  "services": [
+    {
+      "anchor": "architectural-finishing",
+      "short_name": "Architectural Finishing",
+      "name": "High-End Architectural Finishing",
+      "paragraphs": [
+        "This is where Nicholas's finish-carpentry background shows: mitered cedar siding with true waterfall corners, hemlock soffit ceilings, custom interior trim, open-riser staircases built from solid hardwood, custom slat-wall millwork, and cabinetry fitted to a fraction of an inch. It's the exterior envelope and interior detail work that separates a good build from a photographed one.",
+        "The same fine-woodworking eye extends beyond the building envelope — we also build custom furniture and one-off woodworking pieces for clients who want a hand-built finishing touch to match the rest of the home."
+      ],
+      "example_label": "Project example",
+      "example": "Cove Beach and Lawrence Way — lead carpentry subcontractor for West Coast Turn Key, delivering mitered cedar siding with waterfall corners, hemlock soffit ceilings, and open-riser stairs with glass railings.",
+      "link_label": "See Related Projects",
+      "related_project": "lawrence-way",
+      "image": "/images/lawrence-way/IMG_5106.jpg",
+      "image_alt": "Open-riser oak staircase with a glass railing under a hemlock plank soffit at the Lawrence Way custom home, West Vancouver",
+      "extra_images": [
+        {
+          "image": "/images/lawrence-way/lead-mitered-cedar.jpg",
+          "image_alt": "Mitered corner detail on cedar rainscreen siding at the Lawrence Way custom home, West Vancouver — boards wrapping the corner with no trim"
+        },
+        {
+          "image": "/images/older-work/IMG_1464.jpg",
+          "image_alt": "Custom slat-wall millwork — vertical wood battens over a dark feature wall, wrapping onto the ceiling"
+        }
+      ]
+    },
+    {
+      "anchor": "design-build",
+      "short_name": "Design-Build",
+      "name": "Design-Build & 3D Drafting",
+      "paragraphs": [
+        "Every project starts as a conversation, not a spec sheet. We take a client's vision through in-house 3D modeling in SketchUp, refining layout, massing, and material decisions before a single stamped drawing is issued. Once the design is right, we carry it through structural engineering and permitting so the drawings that reach the job site are buildable, coordinated, and ready for our crews to execute — the same crews who helped design it."
+      ],
+      "example_label": "Project example",
+      "example": "Nicholas leads 3D CAD/SketchUp drafting across all Renova design-build projects, translating client vision into structural engineer-stamped construction drawings before crews break ground — as on the Lawrence Way custom home, where the hemlock ceiling follows the roofline through skylights exactly as modelled.",
+      "link_label": "See Related Projects",
+      "related_project": "lawrence-way",
+      "image": "/images/lawrence-way/IMG_5102.jpg",
+      "image_alt": "Lawrence Way custom home, West Vancouver — hemlock plank ceiling meeting an angled skylight, built exactly as modelled in the design-build phase",
+      "extra_images": []
+    },
+    {
+      "anchor": "concrete-formwork",
+      "short_name": "Architectural Concrete",
+      "name": "Architectural Concrete and Formwork",
+      "paragraphs": [
+        "Formwork is where structural integrity is won or lost, and it's the discipline Bill Jr. built his foreman career on. Our crews handle foundations, retaining structures, and large-scale commercial concrete formwork on tight urban job sites — working alongside excavators, structural steel, and tower cranes, to strict site-safety compliance. Every pour is planned to code, supervised on-site, and signed off by a Red Seal carpenter who understands both the concrete and the structure it's carrying."
+      ],
+      "example_label": "Project examples",
+      "example": "multi-level commercial foundation and column formwork on urban Metro Vancouver sites; and decorative finished concrete, including a curved cast-in-place stairwell wall on a private residence.",
+      "link_label": "Discuss a concrete scope",
+      "related_project": "",
+      "image": "/images/older-work/IMG_0094.jpg",
+      "image_alt": "Commercial concrete formwork on an urban job site — crew in full PPE, branded form panels, structural steel and rebar",
+      "extra_images": [
+        {
+          "image": "/images/older-work/IMG_0097.jpg",
+          "image_alt": "Deep excavation with formed foundation walls and column forms on an urban commercial site, excavator working above"
+        },
+        {
+          "image": "/images/older-work/IMG_2446.jpg",
+          "image_alt": "Finished curved cast-in-place concrete stairwell wall on a residential site"
+        }
+      ]
+    },
+    {
+      "anchor": "heavy-timber",
+      "short_name": "Heavy Timber",
+      "name": "Heavy Timber & Structural Remediation",
+      "paragraphs": [
+        "Large agricultural and commercial timber-frame structures fail in specific, predictable ways — post rot, wall racking, roof sag — and fixing them safely means understanding the load path before you touch a single member. We specialize in structural remediation at scale: replacing posts, rebuilding walls, and reconstructing roof framing on buildings that can't come out of service for long."
+      ],
+      "example_label": "Project example",
+      "example": "Coast Performance Horses — structural framing for a new riding arena and barn, including three lantern-roof cupolas built on-site and craned into place onto a standing-seam metal roof.",
+      "link_label": "See Related Projects",
+      "related_project": "coast-performance-horses",
+      "image": "/images/coast-performance-horses/IMG_0128.jpg",
+      "image_alt": "Coast Performance Horses riding arena under construction in Langley on a rainy day — roof cupolas being framed, crew on the standing-seam metal roof",
+      "extra_images": []
+    },
+    {
+      "anchor": "commercial-subcontracting",
+      "short_name": "Commercial Subcontracting",
+      "name": "Commercial & Multi-Family Subcontracting",
+      "paragraphs": [
+        "Large developers need subcontractors who can hold a schedule and a tolerance without daily oversight. We embed crews inside multi-family and commercial builds for wood-frame backing, hardware package installation, and specialized carpentry scope management — coordinated directly with the general contractor's site super, with Renova's own trade leader on-site running the work."
+      ],
+      "example_label": "Project example",
+      "example": "embedded carpentry and formwork crews on multi-family and commercial developments across Metro Vancouver — plywood backing, threshold and hardware packages, and structural formwork scope, coordinated directly with the general contractor's site superintendent.",
+      "link_label": "Discuss a subcontract scope",
+      "related_project": "",
+      "image": "/images/older-work/IMG_4104.jpg",
+      "image_alt": "Renova Design Build crew of four in full PPE on a commercial concrete development in Metro Vancouver, tower crane rising behind them",
+      "extra_images": []
+    }
+  ],
+  "cta": {
+    "heading": "Not sure which service fits your project?",
+    "text": "Tell us what you're building and we'll walk you through the right scope, crew, and timeline."
+  }
+}

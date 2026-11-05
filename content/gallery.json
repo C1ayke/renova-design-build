@@ -1,0 +1,19 @@
+{
+  "hero": {
+    "image": "/images/coast-performance-horses/IMG_0753.jpg",
+    "image_alt": "Coast Performance Horses riding arena and barn in Langley at dusk, three lantern-roof cupolas glowing",
+    "kicker": "Project Gallery",
+    "headline": "Custom Homes, Barns & Renovations Across Metro Vancouver.",
+    "subhead": "Real projects delivered by our Red Seal crews — waterfront custom homes and ADUs on the Sunshine Coast and North Shore, an equestrian arena in Langley, and full-scope renovations in Surrey and New Westminster, across Metro Vancouver & Regional BC."
+  },
+  "filters": {
+    "all": "All Projects",
+    "custom_homes": "Custom Homes & Additions",
+    "equestrian_agricultural": "Equestrian & Agricultural",
+    "renovations": "Renovations"
+  },
+  "cta": {
+    "heading": "Like what you see?",
+    "text": "Let's talk about your project and how our crews can bring it to life."
+  }
+}
