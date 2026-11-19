@@ -41,8 +41,6 @@ collections:
     label: Pages
     label_singular: Page
     icon: description
-    delete: false
-    create: false
     files:
       - name: home
         label: Home Page
@@ -449,8 +447,6 @@ collections:
   - name: layout
     label: Site Layout
     icon: web
-    delete: false
-    create: false
     files:
       - name: site
         label: Header & Footer
