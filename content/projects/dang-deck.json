@@ -4,9 +4,9 @@
   "category": "renovations",
   "eyebrow": "Deck Rebuild",
   "location": "Burnaby, BC",
-  "summary": "Deck rebuilt, new stairs and covered patio",
-  "description": "The old deck's beam and posts had rotted through. We took it back to the structure, replaced the rotten framing, and rebuilt the deck with a waterproof vinyl surface, aluminium railings and new stairs, with a finished ceiling underneath to turn the space below into a covered patio.",
-  "scope": "Structural repair, deck rebuild, stairs, railings, covered patio ceiling",
+  "summary": "Rotten structural beam replaced, deck rebuilt",
+  "description": "The beam under the old deck had rotted through, and it wasn't only carrying the deck. It was also holding up the corner of the house, which had already started to sag. We shored the house, replaced the beam and rotten posts, and stopped the corner from settling any further. Then we rebuilt the deck with a waterproof vinyl surface, aluminium railings and new stairs, with a finished ceiling underneath that turns the space below into a covered patio.",
+  "scope": "Structural beam replacement, deck rebuild, stairs, railings, covered patio ceiling",
   "credits": [],
   "sections": [
     {
@@ -37,7 +37,7 @@
         {
           "image": "/images/dang-deck/IMG_5551.jpg",
           "image_alt": "Rotten deck beam and post found during demolition",
-          "caption": "Rotten beam and post found during demolition."
+          "caption": "The rotten beam was also carrying the corner of the house."
         },
         {
           "image": "/images/dang-deck/IMG_5553.jpg",
