@@ -1,0 +1,61 @@
+{
+  "order": 8,
+  "name": "Cole Pool Deck",
+  "category": "renovations",
+  "eyebrow": "Architectural Concrete",
+  "location": "Maple Ridge, BC",
+  "summary": "Pool deck and stairs rebuilt",
+  "description": "The old pool deck was cracked and settling, and water had nowhere to go. We formed and poured a new reinforced concrete deck with the slope set to carry water away from the pool, added a trench drain at the base of the stairs, and rebuilt the stairs with the rise and run corrected so every step is even.",
+  "scope": "Concrete pool deck, drainage, stairs resurfaced",
+  "credits": [],
+  "sections": [
+    {
+      "type": "lead_photo",
+      "image": "/images/cole-pool/finished-aerial.jpg",
+      "image_alt": "Finished pool deck in Maple Ridge from above, surrounded by autumn trees",
+      "caption": "The finished deck, from above."
+    },
+    {
+      "type": "before_after",
+      "label": "Before / After: pool deck",
+      "before": {
+        "label": "Before",
+        "image": "/images/cole-pool/before.jpg",
+        "image_alt": "Old cracked exposed aggregate pool deck in Maple Ridge",
+        "caption": "Cracked, settling deck with no proper slope."
+      },
+      "after": {
+        "label": "After",
+        "image": "/images/cole-pool/new-deck.jpg",
+        "image_alt": "New concrete pool deck poured around the pool coping in Maple Ridge",
+        "caption": "New reinforced deck, sloped away from the pool."
+      }
+    },
+    {
+      "type": "before_after",
+      "label": "Before / After: stairs",
+      "before": {
+        "label": "Before",
+        "image": "/images/cole-pool/stairs-before.jpg",
+        "image_alt": "Worn uneven concrete stairs above the pool deck",
+        "caption": "Worn stairs with uneven steps."
+      },
+      "after": {
+        "label": "After",
+        "image": "/images/cole-pool/stairs-after.jpg",
+        "image_alt": "Resurfaced concrete stairs with a new trench drain at the base",
+        "caption": "Rise and run corrected, trench drain at the base."
+      }
+    },
+    {
+      "type": "photo_grid",
+      "photos": [
+        {
+          "image": "/images/cole-pool/forms.jpg",
+          "image_alt": "Forms and rebar set around the pool before the pour",
+          "caption": "Forms and rebar set before the pour."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "order": 9,
+  "name": "Dang Deck",
+  "category": "renovations",
+  "eyebrow": "Deck Rebuild",
+  "location": "Burnaby, BC",
+  "summary": "Deck rebuilt, new stairs and covered patio",
+  "description": "The old deck's beam and posts had rotted through. We took it back to the structure, replaced the rotten framing, and rebuilt the deck with a waterproof vinyl surface, aluminium railings and new stairs, with a finished ceiling underneath to turn the space below into a covered patio.",
+  "scope": "Structural repair, deck rebuild, stairs, railings, covered patio ceiling",
+  "credits": [],
+  "sections": [
+    {
+      "type": "lead_photo",
+      "image": "/images/dang-deck/IMG_5720.jpg",
+      "image_alt": "Rebuilt deck with aluminium railings and new stairs on a Burnaby home",
+      "caption": "The rebuilt deck and stairs."
+    },
+    {
+      "type": "before_after",
+      "label": "Before / After",
+      "before": {
+        "label": "Before",
+        "image": "/images/dang-deck/IMG_5425.jpg",
+        "image_alt": "The old deck on the Burnaby home before the rebuild",
+        "caption": "The old deck."
+      },
+      "after": {
+        "label": "After",
+        "image": "/images/dang-deck/IMG_5648.jpg",
+        "image_alt": "Covered patio under the rebuilt deck with a finished ceiling",
+        "caption": "Finished ceiling under the deck, now a covered patio."
+      }
+    },
+    {
+      "type": "photo_grid",
+      "photos": [
+        {
+          "image": "/images/dang-deck/IMG_5551.jpg",
+          "image_alt": "Rotten deck beam and post found during demolition",
+          "caption": "Rotten beam and post found during demolition."
+        },
+        {
+          "image": "/images/dang-deck/IMG_5553.jpg",
+          "image_alt": "Rotted post base pulled out of its concrete footing",
+          "caption": "The post base had rotted out of its footing."
+        },
+        {
+          "image": "/images/dang-deck/IMG_5588.jpg",
+          "image_alt": "Rotten rim framing exposed along the house",
+          "caption": "Rotten framing along the house, replaced."
+        },
+        {
+          "image": "/images/dang-deck/IMG_5594.jpg",
+          "image_alt": "New plywood deck sheathing installed",
+          "caption": "New sheathing on the rebuilt framing."
+        },
+        {
+          "image": "/images/dang-deck/IMG_5632.jpg",
+          "image_alt": "New wood stairs built to the rebuilt deck",
+          "caption": "New stairs going in."
+        },
+        {
+          "image": "/images/dang-deck/IMG_5643.jpg",
+          "image_alt": "Finished waterproof vinyl deck surface",
+          "caption": "Waterproof vinyl deck surface."
+        }
+      ]
+    }
+  ]
+}
