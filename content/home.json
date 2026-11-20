@@ -1,62 +1,62 @@
 {
   "hero": {
     "image": "/images/cove-beach/IMG_5365.jpg",
-    "image_alt": "Renova Design Build custom home at Cove Beach, Sechelt — dark cantilevered roofline over finished siding, ocean visible below",
-    "kicker": "Design-Build Firm — Surrey, BC & the Fraser Valley",
-    "headline": "Masterful Carpentry.\nFull General Contracting.",
-    "subhead": "A family-run firm pairing Red Seal specialty carpentry with the full general-contracting scope — design-build, project management, and multi-trade coordination — directly supervised on-site by trade leaders, from custom waterfront homes to structural concrete across the Fraser Valley & Lower Mainland."
+    "image_alt": "Renova Design Build finishing work at Cove Beach, Sechelt: dark cantilevered roofline over finished cedar siding, ocean below",
+    "kicker": "Family Design Build · Metro Vancouver & the Coast",
+    "headline": "The finishing package,\ndone to the detail.",
+    "subhead": "Renova takes on the complete finishing scope for high end homes: exterior cedar cladding and hemlock soffits, interior millwork, doors, trim and cabinetry. One family crew runs it start to finish, so the builder or homeowner doesn't have to."
   },
   "vision": {
     "eyebrow": "Our Vision",
-    "statement": "Creating beautiful, functional spaces — not fast construction, but building and designing to last generations."
+    "statement": "Creating beautiful, functional spaces. Not fast construction, but building and designing to last generations."
   },
   "trust_bar": [
     {
-      "headline": "Word-of-Mouth",
-      "label": "Built on Referrals & Repeat Clients"
+      "headline": "Detail",
+      "label": "Millwork fitted to the half millimetre"
     },
     {
-      "headline": "Red Seal",
-      "label": "Certified Journeyman Carpenters"
+      "headline": "Proficient",
+      "label": "Generations of trade experience"
     },
     {
-      "headline": "WorkSafeBC",
-      "label": "Fully Insured On Every Job Site"
+      "headline": "Easy to Work With",
+      "label": "Straight answers, clear quotes"
     },
     {
-      "headline": "Family-Run",
-      "label": "Trade Leaders On-Site, Every Job"
+      "headline": "Ingenious",
+      "label": "The smart fix, not the standard one"
     }
   ],
   "photo_band": {
-    "image": "/images/older-work/IMG_4104.jpg",
-    "image_alt": "Renova Design Build crew of four in full PPE on a commercial concrete pour in Metro Vancouver, a tower crane rising behind them",
-    "title": "Hands-On, From the First Frame to the Final Pour.",
-    "label": "On-Site Since Day One"
+    "image": "/images/cove-beach/IMG_2182.jpg",
+    "image_alt": "Continuous hemlock soffit running from inside to outside at the Cove Beach home in Sechelt",
+    "title": "Hands On, From the First Board to the Final Trim.",
+    "label": "Family Run, On Site Every Job"
   },
   "services_overview": {
     "eyebrow": "What We Do",
-    "heading": "Full general contracting, led by master carpenters.",
-    "intro": "Renova runs the complete general-contracting scope — design-build, permitting, project management, budgeting, and multi-trade coordination — with the same crew that self-performs the structural concrete, framing, and finish carpentry. From first sketch to final trim, every discipline below is led on-site by a Red Seal trade leader, not handed off to unsupervised sub-crews.",
+    "heading": "The complete finishing package for high end homes.",
+    "intro": "Builders hand us whole finishing scopes, and homeowners come to us for kitchens, built ins and wood interiors. Every scope is run on site by our own family crew, led by a Red Seal carpenter.",
     "cards": [
       {
-        "title": "High-End Architectural Finishing",
-        "text": "Mitered cedar siding, waterfall soffits, custom stairs, fine interior millwork, and custom furniture."
+        "title": "Complete Finishing Packages",
+        "text": "Hand us the whole finishing scope, outside and in, and take it off your plate."
       },
       {
-        "title": "Design-Build & 3D Drafting",
-        "text": "In-house SketchUp modeling from client vision to engineer-stamped drawings."
+        "title": "Exterior Cladding and Interior Millwork",
+        "text": "Mitered cedar siding, hemlock soffits, cabinetry, built ins, doors, trim and stairs."
       },
       {
         "title": "Architectural Concrete and Formwork",
-        "text": "Foundations, retaining structures, commercial slabs, and utility substation formwork."
+        "text": "Formed concrete stairs, retaining walls and planters with clean lines and true edges."
       },
       {
-        "title": "Heavy Timber & Structural Remediation",
-        "text": "Specialized repairs for large-scale agricultural, commercial, and timber-frame structures."
+        "title": "Design Build for Homeowners",
+        "text": "Kitchens, built ins and wood interiors, designed in 3D with you. Projects from $25K."
       }
     ],
-    "closing_text": "See how these competencies come together on real projects across BC.",
+    "closing_text": "We also take on full renovations, kitchens, bathrooms and structural work. Ask us.",
     "closing_link": "View All Services"
   },
   "process": {
@@ -66,7 +66,7 @@
     "steps": [
       {
         "title": "Vision",
-        "text": "We start by listening — understanding how you want to live in the space and what the project needs to achieve."
+        "text": "We start by listening: how you want to live in the space and what the project needs to achieve."
       },
       {
         "title": "Collaboration",
@@ -78,7 +78,7 @@
       },
       {
         "title": "Design",
-        "text": "The concept becomes detailed, engineer-stamped drawings — in-house 3D modeling keeps every decision visual."
+        "text": "The concept becomes detailed drawings. In house 3D modelling keeps every decision visual."
       },
       {
         "title": "Planning",
@@ -86,7 +86,7 @@
       },
       {
         "title": "Execution",
-        "text": "Our own crews build it, led on-site every day by a Red Seal trade leader — not handed off to sub-crews."
+        "text": "Our own crew builds it, led on site every day by a Red Seal carpenter."
       },
       {
         "title": "Finishing",
@@ -94,11 +94,11 @@
       },
       {
         "title": "Cleaning",
-        "text": "The site is cleaned and prepped for a final walkthrough — ready to move in, not just ready to leave."
+        "text": "The site is cleaned and prepped for a final walkthrough. Ready to move in, not just ready to leave."
       },
       {
         "title": "Goodbyes",
-        "text": "Final handover and walkthrough — and, for most clients, the start of a relationship we hear from again."
+        "text": "Final handover and walkthrough. For most clients, it's the start of a relationship we hear from again."
       }
     ]
   },
@@ -108,56 +108,50 @@
     "gallery_link": "View Full Project Gallery",
     "projects": [
       {
+        "project": "cove-beach-adu",
+        "image": "/images/cove-beach/IMG_3139.jpg",
+        "image_alt": "Cove Beach ADU, Sechelt: mitered cedar siding corner meeting a window",
+        "summary": "Complete finishing package · Cedar outside, millwork inside"
+      },
+      {
         "project": "cove-beach",
         "image": "/images/cove-beach/IMG_5357.jpg",
-        "image_alt": "Cove Beach custom home, Sechelt — modern glass waterfront house on a rock bluff, ocean beyond",
-        "summary": "Waterfront custom home · Mitered cedar, hemlock ceilings"
+        "image_alt": "Cove Beach custom home, Sechelt: modern glass waterfront house on a rock bluff, ocean beyond",
+        "summary": "Waterfront home · Continuous hemlock soffit, inside to out"
       },
       {
         "project": "lawrence-way",
         "image": "/images/lawrence-way/IMG_5044.jpg",
-        "image_alt": "Lawrence Way custom home, West Vancouver — finished cedar cladding alongside an angled window, stone retaining wall and garden behind",
-        "summary": "Custom home · Mitered cedar, hemlock ceilings"
-      },
-      {
-        "project": "coast-performance-horses",
-        "image": "/images/coast-performance-horses/IMG_0753.jpg",
-        "image_alt": "Coast Performance Horses riding arena and barn, Langley — finished equestrian barn at dusk with three lantern-roof cupolas glowing",
-        "summary": "Equestrian barn · Framed lantern-roof cupolas"
-      },
-      {
-        "project": "paula-dhillon",
-        "image": "/images/paula-dhillon/IMG_8194.jpg",
-        "image_alt": "Paula Dhillon bathroom renovation, Surrey — finished frameless glass shower with integrated grab bar and bench",
-        "summary": "Bathroom & deck renovation · Surrey"
+        "image_alt": "Lawrence Way custom home, West Vancouver: cedar cladding beside an angled window",
+        "summary": "Custom home · Interior hemlock, exterior cedar"
       },
       {
         "project": "wende-renovation",
         "image": "/images/wende/IMG_0679.jpg",
-        "image_alt": "Wende's Remodel kitchen, New Westminster — navy cabinets, marble waterfall island and built-in microwave",
-        "summary": "Kitchen, flooring & millwork · New Westminster"
+        "image_alt": "Wende's Remodel kitchen, New Westminster: navy cabinets and a marble waterfall island",
+        "summary": "Design led kitchen · Herringbone floors"
       }
     ]
   },
   "credentials": {
     "eyebrow": "Credentials",
-    "heading": "Certified, insured, and built for high-security sites.",
+    "heading": "Certified, insured and held to our own standard.",
     "items": [
       {
         "title": "Red Seal Certified",
-        "text": "Journeyman Carpenters & Journeyman Building Technologist on every leadership role."
-      },
-      {
-        "title": "BC Hydro Certified Sites",
-        "text": "Utility-level site safety compliance for high-security structural work."
-      },
-      {
-        "title": "SketchUp & CAD",
-        "text": "In-house 3D modeling and CAD integration from concept to construction."
+        "text": "Red Seal Journeyman Carpenters lead every project."
       },
       {
         "title": "Fully Insured",
-        "text": "Full WorkSafeBC coverage & liability insurance — commercial, residential, remote industrial."
+        "text": "Full WorkSafeBC coverage and liability insurance."
+      },
+      {
+        "title": "3D Design In House",
+        "text": "SketchUp modelling from first concept to construction drawings."
+      },
+      {
+        "title": "Family Run",
+        "text": "The people who quote your job are the people running it on site."
       }
     ]
   },
@@ -170,32 +164,28 @@
     "heading": "Common Questions, Answered Directly",
     "items": [
       {
-        "question": "What trades does Renova Design Build actually handle?",
-        "answer": "Renova runs the full general-contracting scope — design-build, permitting, budgeting, scheduling, and multi-trade coordination — and self-performs five core areas: design-build with in-house 3D drafting (SketchUp), structural concrete and formwork, heavy timber and structural remediation, high-end architectural finishing (siding, trim, custom stairs, cabinetry), and commercial/multi-family subcontracting. Every scope is led on-site by one of our Red Seal trade leaders."
+        "question": "What does Renova Design Build do?",
+        "answer": "We take on the complete finishing package for high end homes: exterior cedar cladding and hemlock soffits, interior millwork, cabinetry, doors, trim and stairs, plus architectural concrete like formed stairs, retaining walls and planters. We also design and build kitchens, built ins and wood interiors for homeowners."
       },
       {
-        "question": "Who's actually on my job site — is it Renova's crew or a subcontractor?",
-        "answer": "The person who quotes the job is the person running it on-site. Bill Sr., Bill Jr., and Nicholas lead every project directly rather than handing it off to unsupervised sub-crews."
+        "question": "Who's actually on my job site?",
+        "answer": "Our own family crew. A partner is on site for the start, the key decisions and the finishing, and the person who quotes your job is the person running it."
+      },
+      {
+        "question": "Do you work for builders or homeowners?",
+        "answer": "Both. Builders hand us whole finishing scopes so they can take them off their plate, and homeowners hire us to design and build directly. Homeowner projects start at $25K."
       },
       {
         "question": "Are you licensed and insured?",
-        "answer": "Yes — full WorkSafeBC coverage and liability insurance across commercial, residential, and remote industrial work, with Red Seal Journeyman Carpenters and a Journeyman Building Technologist leading every project."
-      },
-      {
-        "question": "Do you only do residential work, or commercial too?",
-        "answer": "Both. Renova works as the primary design-build contractor for custom homes and community facilities, and as a high-precision subcontractor for large commercial developers — including high-security utility sites like BC Hydro substations."
-      },
-      {
-        "question": "Can you take on projects in remote or First Nations communities?",
-        "answer": "Yes — Renova has managed turnkey construction for First Nations communities, including educational facilities, administrative offices, new housing, and multi-property renovations, coordinated remotely with on-site trade leadership."
+        "answer": "Yes. Full WorkSafeBC coverage and liability insurance, with Red Seal Journeyman Carpenters leading every project."
       },
       {
         "question": "Do you provide 3D drawings before construction starts?",
-        "answer": "Yes — in-house SketchUp 3D modeling and CAD integration, carrying a project from initial concept through to construction-ready, engineer-stamped drawings."
+        "answer": "Yes. We model the project in SketchUp with you so every decision is visual before anything is built."
       },
       {
         "question": "What areas do you serve?",
-        "answer": "We're based in Surrey, BC, serving the Fraser Valley and Lower Mainland."
+        "answer": "We're based in Surrey, BC. Serving Metro Vancouver, the North Shore, the Fraser Valley, the Sunshine Coast and Sea to Sky."
       },
       {
         "question": "How do I get a quote?",
