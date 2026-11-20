@@ -19,7 +19,9 @@
         {{ contact.form_intro.text }}
       </p>
 
-      <form id="contact-form" class="mt-10 space-y-6" novalidate>
+      <form id="contact-form" class="mt-10 space-y-6" action="https://formspree.io/f/mrpqlwky" method="POST" novalidate>
+        <input type="hidden" name="_subject" value="New quote request from renovadesignbuild.com">
+        <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off" aria-hidden="true">
         <div class="grid sm:grid-cols-2 gap-6">
           <div>
             <label for="name" class="field-label">Full Name</label>
@@ -40,33 +42,26 @@
             <label for="project-type" class="field-label">Project Type</label>
             <select id="project-type" name="project-type" class="field-select">
               <option value="">Select a project type&hellip;</option>
-              <option value="finishing-package">Complete Finishing Package (for builders)</option>
-              <option value="exterior-cladding">Exterior Cedar Cladding / Soffits</option>
-              <option value="architectural-finishing">Interior Millwork / Cabinetry</option>
-              <option value="structural-concrete">Architectural Concrete / Formwork</option>
-              <option value="custom-home">Kitchen, Built Ins or Design Build</option>
-              <option value="residential-remodel">Renovation</option>
-              <option value="other">Other</option>
+              <option value="Complete Finishing Package (for builders)">Complete Finishing Package (for builders)</option>
+              <option value="Exterior Cedar Cladding / Soffits">Exterior Cedar Cladding / Soffits</option>
+              <option value="Interior Millwork / Cabinetry">Interior Millwork / Cabinetry</option>
+              <option value="Architectural Concrete / Formwork">Architectural Concrete / Formwork</option>
+              <option value="Kitchen, Built Ins or Design Build">Kitchen, Built Ins or Design Build</option>
+              <option value="Renovation">Renovation</option>
+              <option value="Other">Other</option>
             </select>
           </div>
         </div>
 
         <div>
           <label for="message" class="field-label">Project Details</label>
-          <textarea id="message" name="message" rows="6" class="field-textarea" placeholder="Tell us about your project — location, timeline, and scope."></textarea>
+          <textarea id="message" name="message" rows="6" class="field-textarea" placeholder="Tell us about your project: location, timeline and scope."></textarea>
         </div>
 
         <div>
           <button type="submit" class="btn-cta-dark btn-sm">Send Project Details</button>
           <p id="form-note" class="mt-4 text-sm" style="display:none; color:var(--color-aged-bronze);" role="status"></p>
         </div>
-
-        <!--
-          Form is markup-only for this pitch mockup. To go live, wire the
-          `submit` handler in js/main.js to a Formspree endpoint or a
-          Vercel serverless function (e.g. POST /api/contact) and remove
-          the preventDefault() guard.
-        -->
       </form>
     </div>
 

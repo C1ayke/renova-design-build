@@ -101,16 +101,34 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
 
-  /* ---------- Contact form: markup-only guard ---------- */
+  /* ---------- Contact form: sends to Formspree ---------- */
   var contactForm = document.querySelector('#contact-form');
   if (contactForm) {
     contactForm.addEventListener('submit', function (e) {
       e.preventDefault();
       var note = document.querySelector('#form-note');
-      if (note) {
-        note.textContent = 'This form is a design preview and is not yet connected. Once approved, we will wire this up to your inbox (e.g. Formspree or a Vercel serverless function).';
-        note.style.display = 'block';
+      var button = contactForm.querySelector('button[type="submit"]');
+      function show(msg) { if (note) { note.textContent = msg; note.style.display = 'block'; } }
+      var name = contactForm.querySelector('#name').value.trim();
+      var email = contactForm.querySelector('#email').value.trim();
+      if (!name || !email || email.indexOf('@') < 1) {
+        show('Please add your name and a valid email so we can get back to you.');
+        return;
       }
+      if (button) { button.disabled = true; button.textContent = 'Sending...'; }
+      fetch(contactForm.action, {
+        method: 'POST',
+        body: new FormData(contactForm),
+        headers: { 'Accept': 'application/json' }
+      }).then(function (res) {
+        if (!res.ok) throw new Error('Send failed');
+        contactForm.reset();
+        show('Thanks, we got your project details. We\'ll be in touch shortly.');
+        if (button) button.textContent = 'Sent';
+      }).catch(function () {
+        show('Sorry, that didn\'t go through. Please email info@renovadesignbuild.com or call (604) 763-5329.');
+        if (button) { button.disabled = false; button.textContent = 'Send Project Details'; }
+      });
     });
   }
 
