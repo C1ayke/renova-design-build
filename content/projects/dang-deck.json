@@ -4,9 +4,9 @@
   "category": "renovations",
   "eyebrow": "Deck Rebuild",
   "location": "Burnaby, BC",
-  "summary": "Rotten structural beam replaced, deck rebuilt",
-  "description": "The beam under the old deck had rotted through, and it wasn't only carrying the deck. It was also holding up the corner of the house, which had already started to sag. We replaced the beam and rotten posts and stopped the corner from settling any further. Then we rebuilt the deck with a waterproof vinyl surface, aluminium railings and new stairs, with a finished ceiling underneath that turns the space below into a covered patio.",
-  "scope": "Structural beam replacement, deck rebuild, stairs, railings, covered patio ceiling",
+  "summary": "Phase one: structural repair and deck rebuild",
+  "description": "The beam under the old deck had rotted through, and it wasn't only carrying the deck. It was also holding up the corner of the house, which had already sagged. We replaced the beam and rotten posts and jacked the framing back up until the corner was level again. This is phase one of a larger plan: the owners want to close in the space under the deck and turn it into a room. So we rebuilt the deck as a proper roof for that future room, fully waterproofed, with the structure and the mechanical runs planned ahead so phase two goes smoothly. Aluminium railings and new stairs finished it off.",
+  "scope": "Structural beam replacement, house corner levelled, waterproof deck built for a future room below, stairs, railings",
   "credits": [],
   "sections": [
     {
@@ -27,8 +27,8 @@
       "after": {
         "label": "After",
         "image": "/images/dang-deck/IMG_5648.jpg",
-        "image_alt": "Covered patio under the rebuilt deck with a finished ceiling",
-        "caption": "Finished ceiling under the deck, now a covered patio."
+        "image_alt": "Space under the rebuilt deck, ready to be closed in as a room",
+        "caption": "The space under the deck, built and waterproofed to become a room in phase two."
       }
     },
     {
