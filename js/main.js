@@ -124,6 +124,8 @@ document.addEventListener('DOMContentLoaded', function () {
         if (!res.ok) throw new Error('Send failed');
         contactForm.reset();
         show('Thanks, we got your project details. We\'ll be in touch shortly.');
+        // Google Ads conversion: fires only once the Ads tag and window.RENOVA_ADS_CONVERSION are added to the page head.
+        if (window.gtag && window.RENOVA_ADS_CONVERSION) { window.gtag('event', 'conversion', { send_to: window.RENOVA_ADS_CONVERSION }); }
         if (button) button.textContent = 'Sent';
       }).catch(function () {
         show('Sorry, that didn\'t go through. Please email info@renovadesignbuild.com or call (604) 763-5329.');
