@@ -5,7 +5,7 @@
   "eyebrow": "Architectural Concrete",
   "location": "Maple Ridge, BC",
   "summary": "Pool deck and stairs rebuilt",
-  "description": "The old pool deck was cracked and settling, and water had nowhere to go. We formed and poured a new reinforced concrete deck with the slope set to carry water away from the pool, added a trench drain at the base of the stairs, and rebuilt the stairs with the rise and run corrected so every step is even.",
+  "description": "The old concrete pool deck was cracked and settling, and water had nowhere to go. We formed and poured a new reinforced concrete deck with the slope set to carry water away from the pool, added a trench drain at the base of the stairs, and rebuilt the stairs with the rise and run corrected so every step is even.",
   "scope": "Concrete pool deck, drainage, stairs resurfaced",
   "credits": [],
   "sections": [
@@ -21,8 +21,8 @@
       "before": {
         "label": "Before",
         "image": "/images/cole-pool/before.jpg",
-        "image_alt": "Old cracked exposed aggregate pool deck in Maple Ridge",
-        "caption": "Cracked, settling deck with no proper slope."
+        "image_alt": "Old cracked concrete pool deck in Maple Ridge",
+        "caption": "The old concrete deck: cracked, settling and no proper slope."
       },
       "after": {
         "label": "After",
