@@ -9,7 +9,7 @@
   "intro": {
     "eyebrow": "Our Approach",
     "heading": "Hand us the finishing and take it off your plate.",
-    "text": "Renova works two ways. For builders, we take on the whole finishing scope of a building, outside and in, so it runs as one job instead of five trades. For homeowners, we design and build kitchens, built ins and wood interiors directly. Either way, a partner is on site for the start, the key decisions and the finish, and the same crew carries it through. We also take on full renovations, kitchens, bathrooms and structural work. Ask us."
+    "text": "Renova works two ways. For builders, we take on the whole finishing scope of a building, outside and in, so it runs as one job instead of five trades. For homeowners, we design and build kitchens, built ins and wood interiors directly. Either way, a partner is on site for the start, the key decisions and the finish, and the same crew carries it through."
   },
   "services": [
     {
@@ -103,6 +103,27 @@
       "image": "/images/wende/IMG_0679.jpg",
       "image_alt": "Wende's Remodel kitchen, New Westminster: navy cabinets and a marble waterfall island",
       "extra_images": []
+    },
+    {
+      "anchor": "renovations",
+      "short_name": "Renovations",
+      "name": "Kitchens, Bathrooms and Full Renovations",
+      "paragraphs": [
+        "Full renovations for homeowners, run by one team from design to final walkthrough. Kitchens, bathrooms, hardwood floors and whole home renovations, with the trades coordinated, the schedule handled and a partner on site for every key decision.",
+        "It's the same crew and the same standard as our finishing work, so the details that usually get rushed at the end of a renovation are the part we do best."
+      ],
+      "example_label": "Project example",
+      "example": "Wende's Remodel in New Westminster: a new kitchen designed in 3D, wide plank oak floors throughout and a herringbone transition at the bedroom entry.",
+      "link_label": "See the Project",
+      "related_project": "wende-renovation",
+      "image": "/images/wende/IMG_0700.jpg",
+      "image_alt": "Renovated kitchen with island and range at Wende's Remodel, New Westminster",
+      "extra_images": [
+        {
+          "image": "/images/wende/IMG_0691.jpg",
+          "image_alt": "Light wide plank oak floors replaced throughout Wende's Remodel, New Westminster"
+        }
+      ]
     }
   ],
   "cta": {
