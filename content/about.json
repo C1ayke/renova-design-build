@@ -1,25 +1,24 @@
 {
   "hero": {
     "image": "/images/cove-beach/IMG_1875.jpg",
-    "image_alt": "The Renova Design Build crew together on-site at the Cove Beach custom home in Sechelt, the ocean behind them",
-    "kicker": "About Us — The Quesnel Family",
-    "headline": "A Family Business Built on the Job Site, Not the Boardroom.",
-    "subhead": "Three trade leaders, one standard: every project is supervised by the people who know how to build it — and the same firm runs the full general-contracting scope, from design and permits to multi-trade coordination."
+    "image_alt": "The Renova Design Build crew together on site at the Cove Beach home in Sechelt, the ocean behind them",
+    "kicker": "About Us · The Quesnel Family",
+    "headline": "A Family Business Built on the Job Site.",
+    "subhead": "A father and two sons with more than 45 years of carpentry between them, finishing high end homes from the first board to the final trim. The people who quote your job are the people running it on site."
   },
   "story": {
     "eyebrow": "Our Story",
-    "heading": "Family integrity. Building science. Red Seal mastery.",
+    "heading": "Family integrity. Building science. Red Seal craftsmanship.",
     "paragraphs": [
-      "Renova Design Build is a Surrey, BC-based general contractor and Red Seal carpentry firm run by the Quesnel family, serving the Fraser Valley and Lower Mainland — a business built on the same commitment since day one: the person who quotes the job is the person standing on-site running it. That family reputation has grown over decades of hands-on work — structural concrete on commercial job sites, an equestrian arena in Langley, custom homes in West Vancouver and on the Sunshine Coast, and full renovations in Surrey and New Westminster.",
-      "For the Quesnels, that reputation shows up as much in the work you don't see — the formwork bracing, the structural connections, the code compliance done right the first time — as it does in the finished cedar siding or the custom staircase. The business has grown almost entirely on word-of-mouth and repeat referral work, built on a reputation for detailed craftsmanship paired with the practical experience to run a job start to finish. Each project is treated as part of an ongoing family tradition, not just another job on the books.",
-      "What sets us apart is the pairing of building science with trade mastery. Bill Sr.'s decades as a Journeyman Building Technologist mean every project is grounded in structural code compliance from day one — not retrofitted after a problem shows up. Bill Jr. and Nicholas bring that technical foundation to the ground, as Red Seal Journeyman Carpenters who lead crews directly rather than delegate to unsupervised sub-trades. The result is a firm that pairs masterful specialty carpentry with the full general-contracting scope — design-build, permitting, budgeting, scheduling, and multi-trade coordination — and can move fluidly between a full residential renovation and a multi-month commercial concrete formwork contract without losing the quality control that comes from direct, on-site trade-leader supervision.",
-      "Today Renova works both as a primary design-build contractor for custom homes and community facilities, and as a high-precision subcontractor for large commercial developers — a dual capability built on the same crew, the same standards, and the same family name. Sustainable, resource-conscious building practices are part of that standard too — the Quesnels build with an eye toward material efficiency and long-term environmental responsibility on every project."
+      "Renova Design Build is a family run design build company in Surrey, BC, led by Bill Jr. Quesnel with his father Bill Sr. and brother Nicholas. Bill Jr. started Renova in 2023 out of a passion for design and problem solving, after years in wood frame construction with his father's company and running concrete formwork crews of 15 to 20 people.",
+      "Today we take on the complete finishing package for high end homes: mitered cedar siding and hemlock soffits outside, millwork, cabinetry, doors, trim and stairs inside, and architectural concrete like formed stairs, retaining walls and planters. Builders hand us whole finishing scopes, and homeowners come to us to design and build kitchens, built ins and wood interiors.",
+      "The business has grown almost entirely on referrals. Builders and clients tell us it's the attention to detail, the practical solutions and how easy we are to work with. A partner is on site for the start of every job, the key decisions and the finish, and nothing extra happens without your approval."
     ]
   },
   "leadership": {
     "eyebrow": "Leadership",
     "heading": "The trade leaders on your job site.",
-    "intro": "Renova is led by three Quesnel-family trade leaders. There's no separate management layer between you and the crew — the people below quote the project and run it on-site.",
+    "intro": "Renova is led by the Quesnel family. There's no management layer between you and the crew: the people below quote the project and run it on site.",
     "photos": [
       {
         "image": "/images/cove-beach/IMG_1875.jpg",
@@ -29,51 +28,51 @@
       {
         "image": "/images/older-work/IMG_4104.jpg",
         "image_alt": "Renova crew of four in full PPE on a commercial concrete pour in Metro Vancouver, a tower crane behind them",
-        "caption": "On a commercial concrete pour in Metro Vancouver — trade leaders in PPE, on the deck, every day."
+        "caption": "On a commercial concrete pour in Metro Vancouver. Formwork is where the crew learned precision."
       }
     ],
     "leaders": [
       {
-        "name": "Bill Sr.",
-        "role": "Journeyman Building Technologist",
-        "bio": "Structural and technical acumen across building science, structural code compliance, and turnkey general contracting. Bill Sr. also manages capital construction programs for remote community clients, overseeing multi-property scopes from planning through completion."
+        "name": "Bill Jr.",
+        "role": "Owner, Red Seal Carpenter",
+        "bio": "In construction since he was 18, from wood frame homes and townhouses to running formwork crews of 15 to 20 on commercial concrete. Bill Jr. leads Renova's projects on site, works directly with clients on design, and does the finest finishing and millwork himself."
       },
       {
-        "name": "Bill Jr.",
-        "role": "Red Seal Journeyman Carpenter, Foreman",
-        "bio": "In construction since he was 18, Bill Jr. brings formwork and framing acumen honed on large-scale structural concrete jobs. He manages site-safety compliance and directs crews on custom residential remodels and commercial concrete contracts."
+        "name": "Bill Sr.",
+        "role": "Journeyman Carpenter, Building Technologist (BCIT)",
+        "bio": "More than 45 years in construction and carpentry, with a Building Technology certificate from BCIT. Bill Sr. ran his own construction company for years and brings the building science and code knowledge behind every project."
       },
       {
         "name": "Nicholas",
-        "role": "Red Seal Journeyman Carpenter, Superintendent",
-        "bio": "Architectural and finish acumen spanning fine finish millwork, mitered siding and soffit detailing, and 3D CAD/SketchUp drafting. Nicholas superintends builds and translates client vision into buildable, structurally sound drawings."
+        "role": "Red Seal Carpenter, Design",
+        "bio": "A Red Seal carpenter who also leads design in SketchUp and CAD. Nicholas turns a client's ideas into 3D models and drawings so every decision is clear before anything is built."
       }
     ]
   },
   "certifications": {
     "eyebrow": "Certifications & Safety",
-    "heading": "Certified for residential, commercial, and utility-grade work.",
+    "heading": "Certified, insured and trained in building science.",
     "items": [
       {
-        "title": "Red Seal & Journeyman Certification",
-        "text": "Red Seal Journeyman Carpenters and a Journeyman Building Technologist lead every project — the highest standard of trade certification in Canada."
+        "title": "Red Seal Carpenters",
+        "text": "Bill Jr. and Nicholas are Red Seal Journeyman Carpenters, and Bill Sr. is a journeyman carpenter with 45+ years in the trade."
       },
       {
-        "title": "Utility-Level Site Safety Compliance",
-        "text": "Certified for BC Hydro sites, meeting the strictest safety and access-control standards in the province."
+        "title": "Building Technology, BCIT",
+        "text": "Bill Sr.'s Building Technology training grounds every project in building science and code compliance."
       },
       {
-        "title": "SketchUp 3D Modeling & CAD Integration",
-        "text": "In-house drafting capability that carries a project from concept sketch through construction-ready drawings."
+        "title": "3D Design In House",
+        "text": "SketchUp and CAD modelling from first concept to construction drawings."
       },
       {
-        "title": "Full WorkSafeBC Coverage & Liability Insurance",
-        "text": "Comprehensive coverage across commercial, residential, and remote industrial project types."
+        "title": "WorkSafeBC and Liability Insurance",
+        "text": "Full WorkSafeBC coverage and liability insurance on every job."
       }
     ]
   },
   "cta": {
-    "heading": "Want to work with a crew that shows up on-site?",
-    "text": "Get in touch and talk directly with our leadership team about your project."
+    "heading": "Want to talk to the people who'll build it?",
+    "text": "Get in touch and talk directly with us about your project."
   }
 }
