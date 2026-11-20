@@ -1,0 +1,89 @@
+{
+  "order": 3,
+  "name": "West Vancouver Custom Home",
+  "category": "custom-homes",
+  "eyebrow": "Custom Home",
+  "location": "West Vancouver, BC",
+  "summary": "Custom home",
+  "role": "Lead carpentry subcontractor for West Coast Turn Key",
+  "description": "A contemporary residence with mitered cedar rainscreen siding and an angular hemlock plank ceiling that follows the roofline through skylights, an open-riser oak stair, and glass railings. Renova self-performed the exterior envelope carpentry and the full hemlock soffit package.",
+  "scope": "Mitered cedar siding, hemlock soffit ceilings, stair & railing carpentry",
+  "credits": [
+    {
+      "label": "Client",
+      "value": "West Coast Turn Key"
+    }
+  ],
+  "sections": [
+    {
+      "type": "lead_photo",
+      "image": "/images/west-vancouver/IMG_5044.jpg",
+      "image_alt": "Custom home, West Vancouver — finished cedar cladding alongside an angled window, stone retaining wall and garden behind",
+      "caption": "West Vancouver custom home: finished cedar cladding at an angled window, stone retaining wall and garden behind."
+    },
+    {
+      "type": "photo_grid",
+      "label": "Interior — Hemlock Ceilings",
+      "photos": [
+        {
+          "image": "/images/west-vancouver/IMG_5102.jpg",
+          "image_alt": "Hemlock plank ceiling meeting an angled skylight at a custom home in West Vancouver, oak floor and glass railing below",
+          "caption": "West Vancouver custom home: hemlock plank ceiling meeting an angled skylight, oak floor and glass railing below."
+        },
+        {
+          "image": "/images/west-vancouver/IMG_5106.jpg",
+          "image_alt": "Open-riser oak staircase with a glass railing under a hemlock soffit at a custom home in West Vancouver",
+          "caption": "West Vancouver custom home: open-riser oak staircase with glass railing under a hemlock soffit."
+        },
+        {
+          "image": "/images/west-vancouver/IMG_5108.jpg",
+          "image_alt": "Hemlock ceiling wrapping into a skylight well with an exposed timber beam at a custom home in West Vancouver",
+          "caption": "West Vancouver custom home: hemlock ceiling wrapping into a skylight well with an exposed timber beam."
+        }
+      ]
+    },
+    {
+      "type": "photo_grid",
+      "label": "Exterior — Cedar Siding",
+      "photos": [
+        {
+          "image": "/images/west-vancouver/IMG_5100.jpg",
+          "image_alt": "Cedar rainscreen siding with a concealed access hatch at a custom home in West Vancouver, waterfront beyond",
+          "caption": "West Vancouver custom home: cedar rainscreen siding with concealed access hatch, waterfront beyond."
+        },
+        {
+          "image": "/images/west-vancouver/IMG_5095.jpg",
+          "image_alt": "Cedar siding elevation at a custom home in West Vancouver",
+          "caption": "West Vancouver custom home: cedar siding elevation."
+        },
+        {
+          "image": "/images/west-vancouver/IMG_5021.jpg",
+          "image_alt": "Custom home, West Vancouver: fine line yellow cedar siding with tight mitered corners beside the entry",
+          "caption": "West Vancouver custom home: fine line yellow cedar, left to weather to silver grey."
+        },
+        {
+          "image": "/images/west-vancouver/IMG_5099.jpg",
+          "image_alt": "Cedar siding and window integration at a custom home in West Vancouver",
+          "caption": "West Vancouver custom home: cedar siding and window integration."
+        },
+        {
+          "image": "/images/west-vancouver/IMG_4668.jpg",
+          "image_alt": "Cedar siding mitered corner at a custom home in West Vancouver",
+          "caption": "West Vancouver custom home: cedar siding corner."
+        }
+      ]
+    },
+    {
+      "type": "videos",
+      "label": "Project video",
+      "videos": [
+        {
+          "file": "/videos/west-vancouver/IMG_5101.mp4",
+          "poster": "/videos/west-vancouver/IMG_5101-poster.jpg",
+          "shape": "portrait",
+          "caption": "Finished hallway pan, including the exposed steel beam-to-post connector detail."
+        }
+      ]
+    }
+  ]
+}
