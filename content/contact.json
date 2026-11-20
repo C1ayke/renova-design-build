@@ -21,8 +21,8 @@
   },
   "service_area": {
     "eyebrow": "Service Area",
-    "heading": "Metro Vancouver and the Coast.",
-    "text": "We're based in Surrey and work across Metro Vancouver, the North Shore, the Fraser Valley, the Sunshine Coast and Sea to Sky.",
+    "heading": "Metro Vancouver and the North Shore.",
+    "text": "We're based in Surrey and work across Metro Vancouver, the North Shore, the Fraser Valley and Sea to Sky.",
     "areas": [
       "Vancouver",
       "West Vancouver",
@@ -32,7 +32,6 @@
       "Surrey",
       "Langley",
       "Delta",
-      "Sechelt and Gibsons",
       "Squamish and Whistler"
     ]
   }
