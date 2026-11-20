@@ -34,8 +34,8 @@
     "leaders": [
       {
         "name": "Bill Jr.",
-        "role": "Owner, Red Seal Carpenter",
-        "bio": "In construction since he was 18, from wood frame homes and townhouses to running formwork crews of 15 to 20 on commercial concrete. Bill Jr. leads Renova's projects on site, works directly with clients on design, and does the finest finishing and millwork himself."
+        "role": "Owner, Red Seal Carpenter, Design Lead",
+        "bio": "In construction since he was 18, from wood frame homes to running formwork crews of 15 to 20. Bill Jr. leads design on every project: choosing materials that work together and suit the home, then running the build on site to make sure it comes out the way it was drawn."
       },
       {
         "name": "Bill Sr.",
@@ -44,8 +44,8 @@
       },
       {
         "name": "Nicholas",
-        "role": "Red Seal Carpenter, Design",
-        "bio": "A Red Seal carpenter who also leads design in SketchUp and CAD. Nicholas turns a client's ideas into 3D models and drawings so every decision is clear before anything is built."
+        "role": "Red Seal Carpenter, 3D Modelling",
+        "bio": "A Red Seal carpenter who builds the 3D models and drawings in SketchUp and CAD, so clients can see every decision clearly before anything is built."
       }
     ]
   },
