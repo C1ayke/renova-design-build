@@ -134,6 +134,13 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
 
+  /* ---------- Google Ads: count taps on any phone link as a lead ---------- */
+  var RENOVA_PHONE_CONVERSION = 'AW-11371930890/o-PvCPrDxr0dEIrKx64q';
+  document.addEventListener('click', function (e) {
+    var link = e.target.closest && e.target.closest('a[href^="tel:"]');
+    if (link && window.gtag) { window.gtag('event', 'conversion', { send_to: RENOVA_PHONE_CONVERSION }); }
+  });
+
   /* ---------- Footer year ---------- */
   var yearEl = document.querySelector('#current-year');
   if (yearEl) yearEl.textContent = new Date().getFullYear();

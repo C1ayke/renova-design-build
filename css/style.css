@@ -159,6 +159,15 @@ h1, h2, h3, h4 { font-weight: 500; margin: 0; }
   color: var(--color-obsidian);
 }
 
+.btn-call {
+  margin-left: auto;
+  margin-right: 16px;
+  padding: 6px 16px;
+}
+@media (min-width: 768px) {
+  .btn-call { display: none; }
+}
+
 .nav-toggle {
   display: inline-flex;
   flex-direction: column;

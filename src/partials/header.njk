@@ -12,6 +12,7 @@
       <a href="contact.html" class="nav-link"{% if page == 'contact' %} aria-current="page"{% endif %}>{{ site.nav.contact }}</a>
       <a href="contact.html" class="btn-outline-nav ml-2">{{ site.quote_button }}</a>
     </nav>
+    <a href="{{ contact.phone | telHref }}" class="btn-outline-nav btn-call md:hidden" aria-label="Call {{ contact.phone }}">Call</a>
     <button class="nav-toggle md:hidden" aria-label="Toggle menu" aria-expanded="false">
       <span></span><span></span><span></span>
     </button>
