@@ -1,0 +1,119 @@
+{% include "heads/renovations.html" %}{% set page = 'renovations' %}
+{% include "partials/header.njk" %}
+
+<main id="main">
+
+<!-- ===== Hero: promise, buttons, photo ===== -->
+<section class="section-dark" style="padding-top:120px;padding-bottom:64px;">
+  <div class="wrap grid lg:grid-cols-2 gap-10 items-center">
+    <div>
+      <p class="eyebrow" style="color:var(--color-muted-gold);">Kitchens and bathrooms &middot; Metro Vancouver</p>
+      <h1 class="section-heading-dark mt-3" style="line-height:1.15;">Kitchen and bathroom renovations by a family crew of Red Seal carpenters.</h1>
+      <p class="mt-5" style="font-size:18px;opacity:.9;max-width:34em;">We draw your new kitchen or bathroom in 3D first, so you see it before anything is ordered. Then our own crew builds it, start to finish, with cabinets and trim scribed to your actual walls.</p>
+      <div class="mt-8 flex flex-wrap gap-3">
+        <a href="#quote" class="btn-cta btn-sm" style="background:var(--color-warm-parchment);color:var(--color-walnut-shell);">Get a free quote</a>
+        <a href="{{ contact.phone | telHref }}" class="btn-cta btn-sm">Call {{ contact.phone }}</a>
+      </div>
+    </div>
+    <figure>
+      <img src="images/renovations/IMG_5357.jpg" alt="Finished bedroom with a wood plank ceiling and floor to ceiling windows" class="w-full" style="aspect-ratio:4/5;object-fit:cover;border-radius:4px;" loading="eager">
+      <figcaption class="mt-2 text-sm" style="opacity:.75;">Cove Beach, Sunshine Coast. Our crew did the exterior wood cladding and the interior wood ceilings.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ===== Four reasons ===== -->
+<section class="section-candle">
+  <div class="wrap grid sm:grid-cols-2 gap-8">
+    <div><h3 class="text-lg font-semibold">Red Seal carpenters</h3><p class="mt-1" style="color:var(--color-aged-bronze);">Built by certified carpenters, not a rotating cast of subtrades.</p></div>
+    <div><h3 class="text-lg font-semibold">A family crew, start to finish</h3><p class="mt-1" style="color:var(--color-aged-bronze);">Father and sons, from demolition to the final walkthrough.</p></div>
+    <div><h3 class="text-lg font-semibold">Fitted perfectly to any space</h3><p class="mt-1" style="color:var(--color-aged-bronze);">Cabinets installed and fitted by our own carpenters, scribed to your walls, floors and ceilings. Custom pieces built when the job calls for it.</p></div>
+    <div><h3 class="text-lg font-semibold">See it before it's built</h3><p class="mt-1" style="color:var(--color-aged-bronze);">Your layout and finishes drawn in 3D before anything is ordered.</p></div>
+  </div>
+</section>
+
+<!-- ===== Project: before, design, finished ===== -->
+<section class="section-cream">
+  <div class="wrap">
+    <h2 class="section-heading">A kitchen in New Westminster</h2>
+    <div class="mt-8 grid grid-cols-2 md:grid-cols-3 gap-3">
+      <figure class="col-span-2 md:col-span-1"><img src="images/renovations/IMG_8880.jpg" alt="The kitchen before the renovation, with dark floors and an old island" class="w-full" style="aspect-ratio:3/4;object-fit:cover;border-radius:4px;" loading="lazy"><figcaption class="mt-2 text-sm" style="color:var(--color-muted-gold);">Before</figcaption></figure>
+      <figure><img src="images/renovations/render-crop.jpg" alt="3D design of the island with sink and waterfall end" class="w-full" style="aspect-ratio:3/4;object-fit:contain;background:#fff;border-radius:4px;" loading="lazy"><figcaption class="mt-2 text-sm" style="color:var(--color-muted-gold);">The 3D design</figcaption></figure>
+      <figure><img src="images/renovations/IMG_0703.jpg" alt="Finished island with sink and marble waterfall end" class="w-full" style="aspect-ratio:3/4;object-fit:cover;border-radius:4px;" loading="lazy"><figcaption class="mt-2 text-sm" style="color:var(--color-muted-gold);">Finished</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<!-- ===== How it works ===== -->
+<section class="section-candle">
+  <div class="wrap">
+    <h2 class="section-heading">How it works</h2>
+    <ol class="mt-8 grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+      <li style="border-top:1px solid var(--color-muted-gold);padding-top:12px;"><span class="text-sm" style="color:var(--color-muted-gold);">1</span><b class="block">Call or message</b>We visit and measure.</li>
+      <li style="border-top:1px solid var(--color-muted-gold);padding-top:12px;"><span class="text-sm" style="color:var(--color-muted-gold);">2</span><b class="block">Design in 3D</b>We draw it with you.</li>
+      <li style="border-top:1px solid var(--color-muted-gold);padding-top:12px;"><span class="text-sm" style="color:var(--color-muted-gold);">3</span><b class="block">Clear quote</b>One price for the agreed scope.</li>
+      <li style="border-top:1px solid var(--color-muted-gold);padding-top:12px;"><span class="text-sm" style="color:var(--color-muted-gold);">4</span><b class="block">We build it</b>Our crew, start to finish.</li>
+    </ol>
+  </div>
+</section>
+
+<!-- ===== Work with us directly + quote form ===== -->
+<section class="section-dark" id="quote">
+  <div class="wrap grid lg:grid-cols-2 gap-12">
+    <div>
+      <h2 class="section-heading-dark">Work with us directly</h2>
+      <p class="mt-4" style="opacity:.9;">Bill Jr., his father Bill Sr. and brother Nicholas. No salespeople. The people you meet are the people who build it.</p>
+      <p class="mt-4"><a href="{{ contact.phone | telHref }}" class="btn-cta btn-sm">Call {{ contact.phone }}</a></p>
+      <p class="mt-4 text-sm" style="color:var(--color-muted-gold);">Most kitchen and bathroom projects start around $25K.</p>
+      <img src="images/renovations/bill-sr-and-bill-jr.jpg" alt="Bill Sr. and Bill Jr. Quesnel" class="w-full mt-8" style="border-radius:4px;" loading="lazy">
+    </div>
+
+    <div style="background:var(--color-candlelight);color:var(--color-obsidian);padding:28px;border-radius:4px;">
+      <h3 class="text-xl font-medium">Get a free quote</h3>
+      <form id="contact-form" class="mt-6 space-y-5" action="https://formspree.io/f/mrpqlwky" method="POST" novalidate>
+        <input type="hidden" name="_subject" value="New kitchen/bath quote request (renovations page)">
+        <input type="hidden" name="source" value="renovations landing page">
+        <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <div>
+          <label for="name" class="field-label">Full Name</label>
+          <input type="text" id="name" name="name" class="field-input" placeholder="Jane Smith" autocomplete="name" required>
+        </div>
+        <div class="grid sm:grid-cols-2 gap-5">
+          <div>
+            <label for="email" class="field-label">Email</label>
+            <input type="email" id="email" name="email" class="field-input" placeholder="jane@example.com" autocomplete="email" required>
+          </div>
+          <div>
+            <label for="phone" class="field-label">Phone</label>
+            <input type="tel" id="phone" name="phone" class="field-input" placeholder="{{ contact.phone }}" autocomplete="tel">
+          </div>
+        </div>
+        <div>
+          <label for="project-type" class="field-label">Project Type</label>
+          <select id="project-type" name="project-type" class="field-select">
+            <option value="Kitchen">Kitchen</option>
+            <option value="Bathroom">Bathroom</option>
+            <option value="Kitchen and bathroom">Kitchen and bathroom</option>
+            <option value="Other renovation">Other renovation</option>
+          </select>
+        </div>
+        <div>
+          <label for="message" class="field-label">Project Details</label>
+          <textarea id="message" name="message" rows="4" class="field-textarea" placeholder="Where is the home, what do you want done, and when?"></textarea>
+        </div>
+        <div>
+          <button type="submit" class="btn-cta-dark btn-sm">Send Project Details</button>
+          <p id="form-note" class="mt-4 text-sm" style="display:none; color:var(--color-aged-bronze);" role="status"></p>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
+</main>
+
+{% include "partials/footer.njk" %}
+
+<script src="js/main.js"></script>
+</body>
+</html>

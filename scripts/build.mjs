@@ -66,7 +66,7 @@ const context = {
 
 fs.rmSync(OUT, { recursive: true, force: true });
 fs.mkdirSync(OUT);
-for (const page of ['index', 'services', 'gallery', 'about', 'contact']) {
+for (const page of ['index', 'services', 'gallery', 'about', 'contact', 'renovations']) {
   fs.writeFileSync(path.join(OUT, `${page}.html`), env.render(`pages/${page}.njk`, context));
 }
 
